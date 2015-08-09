@@ -1,35 +1,30 @@
-[17:02:24] [main/INFO]: Setting user: Player958
-[17:02:30] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:03:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[17:03:18] [Sound Library Loader/INFO]: Sound engine started
-[17:03:30] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[17:03:30] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[17:03:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[17:03:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:03:36] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[17:03:41] [Sound Library Loader/INFO]: Sound engine started
-[17:05:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:05:13] [Server thread/INFO]: Generating keypair
-[17:05:17] [Server thread/INFO]: Preparing start region for level 0
-[17:05:18] [Server thread/INFO]: Preparing spawn area: 1%
-[17:05:19] [Server thread/INFO]: Preparing spawn area: 41%
-[17:05:20] [Server thread/INFO]: Preparing spawn area: 93%
-[17:05:21] [Server thread/INFO]: Changing view distance to 2, from 10
-[17:05:23] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2516ms behind, skipping 50 tick(s)
-[17:05:25] [Server thread/INFO]: Player958[local:E:4b2dc75b] logged in with entity id 113 at (-59.568957375969006, 72.21466561025456, -308.8777931654412)
-[17:05:25] [Server thread/INFO]: Player958 joined the game
-[17:05:30] [Server thread/INFO]: Player958 has just earned the achievement [Taking Inventory]
-[17:05:31] [Client thread/INFO]: [CHAT] Player958 has just earned the achievement [Taking Inventory]
-[17:06:19] [Client thread/INFO]: [CHAT] techExpansion:tinOre, techExpansion:copperOre, techExpansion:tinBlock, techExpansion:copperBlock
-[17:06:20] [Client thread/INFO]: [CHAT] techExpansion:tinOre, techExpansion:copperOre, techExpansion:tinBlock, techExpansion:copperBlock
-[17:06:24] [Server thread/INFO]: Saving and pausing game...
-[17:06:24] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
-[17:06:24] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
-[17:06:24] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
-[17:06:25] [Server thread/INFO]: Stopping server
-[17:06:25] [Server thread/INFO]: Saving players
-[17:06:25] [Server thread/INFO]: Saving worlds
-[17:06:25] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
-[17:06:25] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
-[17:06:25] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
-[17:06:32] [Client thread/INFO]: Stopping!
+[17:30:09] [main/INFO]: Setting user: Player124
+[17:30:11] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:30:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[17:30:24] [Sound Library Loader/INFO]: Sound engine started
+[17:30:27] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:30:27] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:30:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[17:30:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:30:28] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[17:30:29] [Sound Library Loader/INFO]: Sound engine started
+[17:30:35] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:30:35] [Server thread/INFO]: Generating keypair
+[17:30:37] [Server thread/INFO]: Preparing start region for level 0
+[17:30:38] [Server thread/INFO]: Preparing spawn area: 53%
+[17:30:38] [Server thread/INFO]: Changing view distance to 2, from 10
+[17:30:39] [Server thread/INFO]: Player124[local:E:a1f9de5f] logged in with entity id 106 at (-59.568957375969006, 72.21466561025456, -308.8777931654412)
+[17:30:39] [Server thread/INFO]: Player124 joined the game
+[17:30:44] [Server thread/INFO]: Player124 has just earned the achievement [Taking Inventory]
+[17:30:44] [Client thread/INFO]: [CHAT] Player124 has just earned the achievement [Taking Inventory]
+[17:30:49] [Server thread/INFO]: Saving and pausing game...
+[17:30:49] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
+[17:30:49] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
+[17:30:50] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
+[17:30:50] [Server thread/INFO]: Stopping server
+[17:30:50] [Server thread/INFO]: Saving players
+[17:30:50] [Server thread/INFO]: Saving worlds
+[17:30:50] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
+[17:30:50] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
+[17:30:50] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
+[17:30:52] [Client thread/INFO]: Stopping!
