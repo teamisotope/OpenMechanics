@@ -1,6 +1,7 @@
 package com.collabmods.techexpansion.proxies;
 
 import com.collabmods.techexpansion.TechExpansionBlocks;
+import com.collabmods.techexpansion.item.TechExpansionItems;
 import com.collabmods.techexpansion.TechExpansionWorldGen;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -12,6 +13,7 @@ public class CommonProxy {
 	
 	public void preInit(FMLPreInitializationEvent e) {
 		TechExpansionBlocks.init();
+		TechExpansionItems.loadItems();
 	}
 	
 	public void init(FMLInitializationEvent e) {
