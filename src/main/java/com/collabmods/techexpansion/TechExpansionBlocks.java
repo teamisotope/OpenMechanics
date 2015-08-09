@@ -1,5 +1,6 @@
 package com.collabmods.techexpansion;
 
+import com.collabmods.techexpansion.blocks.AluminumBlock;
 import com.collabmods.techexpansion.blocks.AluminumOre;
 import com.collabmods.techexpansion.blocks.CopperBlock;
 import com.collabmods.techexpansion.blocks.CopperOre;
@@ -16,6 +17,7 @@ public final class TechExpansionBlocks {
 	public static Block copperBlock;
 	public static Block tinBlock;
 	public static Block aluminumOre;
+	public static Block aluminumBlock;
 	
 	public static final void init() {
 		GameRegistry.registerBlock(copperOre = new CopperOre("copperOre", Material.iron), "copperOre");
@@ -23,5 +25,6 @@ public final class TechExpansionBlocks {
 		GameRegistry.registerBlock(copperBlock = new CopperBlock("copperBlock", Material.iron), "copperBlock");
 		GameRegistry.registerBlock(tinBlock = new TinBlock("tinBlock", Material.iron), "tinBlock");
 		GameRegistry.registerBlock(aluminumOre = new AluminumOre("aluminumOre", Material.iron), "aluminumOre");
+		GameRegistry.registerBlock(aluminumBlock = new AluminumBlock("aluminumBlock", Material.iron), "aluminumBlock");
 	}
 }
