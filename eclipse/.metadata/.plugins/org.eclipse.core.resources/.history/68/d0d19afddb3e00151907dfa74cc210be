@@ -1,6 +1,5 @@
 package com.collabmods.techexpansion;
 
-import com.collabmods.techexpansion.blocks.CopperOre;
 import com.collabmods.techexpansion.proxies.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -9,9 +8,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraftforge.oredict.OreDictionary;
 
 
 @Mod(modid = TechExpansion.MODID, name = TechExpansion.MODNAME, version = TechExpansion.VERSION)
@@ -36,8 +32,6 @@ public class TechExpansion {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		proxy.init(e);
-		OreDictionary.registerOre("oreCopper", new ItemStack(Item.getItemFromBlock(TechExpansionBlocks.copperOre)));
-		OreDictionary.registerOre("oreTin", new ItemStack(Item.getItemFromBlock(TechExpansionBlocks.tinOre)));
 	}
 	
 	//postinit
