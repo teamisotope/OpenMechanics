@@ -10,7 +10,6 @@ public class TechExpansionCrafting {
 	public static void init() {
 		GameRegistry.addSmelting(TechExpansionBlocks.copperOre, new ItemStack(TechExpansionItems.copperIngot), 1.0F);
 		GameRegistry.addSmelting(TechExpansionBlocks.tinOre, new ItemStack(TechExpansionItems.tinIngot), 1.0F);
-		GameRegistry.addSmelting(TechExpansionBlocks.aluminumOre, new ItemStack(TechExpansionItems.aluminumIngot), 1.0f);
 		GameRegistry.addRecipe(new ItemStack(TechExpansionBlocks.copperBlock), new Object[] {
 				"ccc",
 				"ccc",
@@ -21,19 +20,11 @@ public class TechExpansionCrafting {
 				"ttt",
 				"ttt", 't', TechExpansionItems.tinIngot
 		});
-		GameRegistry.addRecipe(new ItemStack(TechExpansionBlocks.aluminumBlock), new Object[] {
-				"aaa",
-				"aaa",
-				"aaa", 'a', TechExpansionItems.aluminumIngot
-		});
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperIngot, 9), new Object[] {
 				"c", 'c', TechExpansionBlocks.copperBlock
 		});
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.tinIngot, 9), new Object[] {
 				"t", 't', TechExpansionBlocks.tinBlock
-		});
-		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.aluminumIngot, 9), new Object[] {
-				"a", 'a', TechExpansionBlocks.aluminumBlock
 		});
 	}
 }
