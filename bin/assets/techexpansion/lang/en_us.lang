@@ -3,3 +3,5 @@ tile.tinOre.name=Tin Ore
 tile.copperBlock.name=Copper Block
 tile.tinBlock.name=Tin Block
 itemGroup.techExpansion=§6Tech Expansion
+item.copperIngot.name=Copper Ingot
+item.tinIngot.name=Tin Ingot
