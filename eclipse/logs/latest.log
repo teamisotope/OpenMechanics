@@ -1,38 +1,46 @@
-[14:06:48] [main/INFO]: Setting user: Player399
-[14:06:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:07:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[14:07:04] [Sound Library Loader/INFO]: Sound engine started
-[14:07:06] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[14:07:07] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[14:07:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[14:07:08] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:07:09] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[14:07:09] [Sound Library Loader/INFO]: Sound engine started
-[14:07:25] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:07:25] [Server thread/INFO]: Generating keypair
-[14:07:26] [Server thread/INFO]: Preparing start region for level 0
-[14:07:27] [Server thread/INFO]: Preparing spawn area: 50%
-[14:07:28] [Server thread/INFO]: Changing view distance to 2, from 10
-[14:07:29] [Server thread/INFO]: Player399[local:E:a27a56b5] logged in with entity id 295 at (-254.1056751697629, 77.395925694882, 231.97857545384318)
-[14:07:29] [Server thread/INFO]: Player399 joined the game
-[14:07:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2139ms behind, skipping 42 tick(s)
-[14:08:02] [Server thread/INFO]: Player399 has just earned the achievement [Taking Inventory]
-[14:08:02] [Client thread/INFO]: [CHAT] Player399 has just earned the achievement [Taking Inventory]
-[14:08:49] [Client thread/INFO]: [CHAT] You do not have permission to use this command
-[14:08:51] [Server thread/INFO]: Saving and pausing game...
-[14:08:51] [Server thread/INFO]: Saving chunks for level 'Tech'/Overworld
-[14:08:51] [Server thread/INFO]: Saving chunks for level 'Tech'/Nether
-[14:08:51] [Server thread/INFO]: Saving chunks for level 'Tech'/The End
-[14:08:54] [Client thread/INFO]: Started on 55265
-[14:08:54] [Client thread/INFO]: [CHAT] Local game hosted on port 55265
-[14:09:05] [Server thread/INFO]: [Player399: Set own game mode to Survival Mode]
-[14:09:05] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[14:09:37] [Server thread/INFO]: [Player399: Given [Diamond Pickaxe] * 1 to Player399]
-[14:09:37] [Client thread/INFO]: [CHAT] Given [Diamond Pickaxe] * 1 to Player399
-[14:12:42] [Server thread/INFO]: Stopping server
-[14:12:42] [Server thread/INFO]: Saving players
-[14:12:42] [Server thread/INFO]: Saving worlds
-[14:12:42] [Server thread/INFO]: Saving chunks for level 'Tech'/Overworld
-[14:12:42] [Server thread/INFO]: Saving chunks for level 'Tech'/Nether
-[14:12:42] [Server thread/INFO]: Saving chunks for level 'Tech'/The End
-[14:12:44] [Client thread/INFO]: Stopping!
+[14:38:00] [main/INFO]: Setting user: Player879
+[14:38:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:38:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[14:38:15] [Sound Library Loader/INFO]: Sound engine started
+[14:38:18] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[14:38:18] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[14:38:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[14:38:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:38:19] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[14:38:20] [Sound Library Loader/INFO]: Sound engine started
+[14:38:38] [Client thread/INFO]: Deleting level Tech
+[14:38:38] [Client thread/INFO]: Attempt 1...
+[14:38:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:38:47] [Server thread/INFO]: Generating keypair
+[14:38:47] [Server thread/INFO]: Converting map!
+[14:38:47] [Server thread/INFO]: Scanning folders...
+[14:38:47] [Server thread/INFO]: Total conversion count is 0
+[14:38:48] [Server thread/INFO]: Preparing start region for level 0
+[14:38:49] [Server thread/INFO]: Preparing spawn area: 2%
+[14:38:50] [Server thread/INFO]: Preparing spawn area: 4%
+[14:38:51] [Server thread/INFO]: Preparing spawn area: 10%
+[14:38:52] [Server thread/INFO]: Preparing spawn area: 16%
+[14:38:53] [Server thread/INFO]: Preparing spawn area: 25%
+[14:38:54] [Server thread/INFO]: Preparing spawn area: 35%
+[14:38:55] [Server thread/INFO]: Preparing spawn area: 49%
+[14:38:56] [Server thread/INFO]: Preparing spawn area: 60%
+[14:38:57] [Server thread/INFO]: Preparing spawn area: 72%
+[14:38:58] [Server thread/INFO]: Preparing spawn area: 87%
+[14:38:59] [Server thread/INFO]: Changing view distance to 2, from 10
+[14:39:00] [Server thread/INFO]: Player879[local:E:d7ea6d23] logged in with entity id 165 at (-7.5, 69.0, 159.5)
+[14:39:00] [Server thread/INFO]: Player879 joined the game
+[14:39:27] [Server thread/INFO]: Player879 has just earned the achievement [Taking Inventory]
+[14:39:27] [Client thread/INFO]: [CHAT] Player879 has just earned the achievement [Taking Inventory]
+[14:40:26] [Server thread/INFO]: [Player879: Given Night Vision (ID 16) * 255 to Player879 for 999999 seconds]
+[14:40:26] [Client thread/INFO]: [CHAT] Given Night Vision (ID 16) * 255 to Player879 for 999999 seconds
+[14:41:32] [Server thread/INFO]: Saving and pausing game...
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/Overworld
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/Nether
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/The End
+[14:41:32] [Server thread/INFO]: Stopping server
+[14:41:32] [Server thread/INFO]: Saving players
+[14:41:32] [Server thread/INFO]: Saving worlds
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/Overworld
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/Nether
+[14:41:32] [Server thread/INFO]: Saving chunks for level 'MUST FIND COPPER'/The End
+[14:41:35] [Client thread/INFO]: Stopping!
