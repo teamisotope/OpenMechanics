@@ -25,6 +25,7 @@ public class TechExpansion {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		proxy.preInit(e);
+		TechExpansionCrafting.init();
 	}
 	
 	//init
