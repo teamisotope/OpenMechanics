@@ -1,6 +1,5 @@
 package com.collabmods.techexpansion;
 
-import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
@@ -8,7 +7,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 //imports
 
-@Mod(modid = TechExpansion.MODID, name = TechExpansion.MODNAME, version = TechExpansion.VERSION)
+@Mod(modid = MODID, name = MODNAME, version = VERSION)
 
 public class TechExpansion {
 	

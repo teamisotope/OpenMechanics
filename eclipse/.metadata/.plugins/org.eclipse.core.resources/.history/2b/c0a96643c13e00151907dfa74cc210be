@@ -8,7 +8,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 //imports
 
-@Mod(modid = TechExpansion.MODID, name = TechExpansion.MODNAME, version = TechExpansion.VERSION)
+@Mod(modid = MODID, name = MODNAME, version = VERSION)
 
 public class TechExpansion {
 	
