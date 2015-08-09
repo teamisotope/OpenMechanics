@@ -15,6 +15,7 @@ public class TechExpansionWorldGen implements IWorldGenerator{
 		switch (world.provider.dimensionId) {
 		case 0: //Overworld
 			this.runGenerator(this.gen_copper_ore, world, random, chunkX, chunkZ, 20, 0, 64);
+			this.runGenerator(this.gen_tin_ore, world, random, chunkX, chunkZ, 22, 0, 64);
 			break;
 		case -1: //Nether
 			
@@ -27,9 +28,14 @@ public class TechExpansionWorldGen implements IWorldGenerator{
 	
 	private WorldGenerator gen_copper_ore; //Generates Copper Ore (used in Overworld)
 	
+	private WorldGenerator gen_tin_ore; //Generates Tin Ore (used in Overworld)
+	
 	public TechExpansionWorldGen() {
 		this.gen_copper_ore = new WorldGenMinable(TechExpansionBlocks.copperOre, 8);
-	} //Copper ore gen
+		this.gen_tin_ore = new WorldGenMinable(TechExpansionBlocks.tinOre, 10);
+	} 
+	
+	
 	
 	private void runGenerator(WorldGenerator generator, World world, Random rand, int chunk_X, int chunk_Z, int chancesToSpawn, int minHeight, int maxHeight) {
 			if (minHeight < 0 || maxHeight > 256 || minHeight > maxHeight)

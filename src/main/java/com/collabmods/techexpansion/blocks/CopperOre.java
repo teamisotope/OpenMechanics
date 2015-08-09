@@ -10,7 +10,8 @@ public class CopperOre extends Block{
 		super(material);
 		this.setBlockName(unlocalizedName)
 		.setBlockTextureName("techExpansion:copper_ore")
-		.setCreativeTab(CreativeTabs.tabBlock).setHardness(3.0f)
+		.setCreativeTab(CreativeTabs.tabBlock)
+		.setHardness(3.0f)
 		.setResistance(15.0f)
 		.setStepSound(soundTypeStone)
 		.setHarvestLevel("pickaxe", 1);
