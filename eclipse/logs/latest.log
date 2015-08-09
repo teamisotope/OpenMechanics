@@ -1,29 +1,30 @@
-[17:42:07] [main/INFO]: Setting user: Player818
-[17:42:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:42:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[17:42:23] [Sound Library Loader/INFO]: Sound engine started
-[17:42:26] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[17:42:26] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[17:42:26] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
-[17:42:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:42:27] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[17:42:28] [Sound Library Loader/INFO]: Sound engine started
-[17:42:38] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[17:42:38] [Server thread/INFO]: Generating keypair
-[17:42:39] [Server thread/INFO]: Preparing start region for level 0
-[17:42:40] [Server thread/INFO]: Preparing spawn area: 32%
-[17:42:41] [Server thread/INFO]: Preparing spawn area: 96%
-[17:42:41] [Server thread/INFO]: Changing view distance to 2, from 10
-[17:42:43] [Server thread/INFO]: Player818[local:E:2f022209] logged in with entity id 105 at (-69.97955386460113, 71.0, -310.44545183355365)
-[17:42:43] [Server thread/INFO]: Player818 joined the game
-[17:43:08] [Server thread/INFO]: Saving and pausing game...
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
-[17:43:09] [Server thread/INFO]: Stopping server
-[17:43:09] [Server thread/INFO]: Saving players
-[17:43:09] [Server thread/INFO]: Saving worlds
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
-[17:43:09] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
-[17:43:10] [Client thread/INFO]: Stopping!
+[17:47:50] [main/INFO]: Setting user: Player337
+[17:47:52] [Client thread/INFO]: LWJGL Version: 2.9.1
+[17:48:06] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[17:48:08] [Sound Library Loader/INFO]: Sound engine started
+[17:48:11] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[17:48:11] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[17:48:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Tech Expansion
+[17:48:12] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:12] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[17:48:13] [Sound Library Loader/INFO]: Sound engine started
+[17:48:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:48:21] [Server thread/INFO]: Generating keypair
+[17:48:22] [Server thread/INFO]: Preparing start region for level 0
+[17:48:23] [Server thread/INFO]: Preparing spawn area: 79%
+[17:48:23] [Server thread/INFO]: Changing view distance to 2, from 10
+[17:48:24] [Server thread/INFO]: Player337[local:E:878e7996] logged in with entity id 79 at (-68.36873624480049, 71.0, -311.70949358813124)
+[17:48:24] [Server thread/INFO]: Player337 joined the game
+[17:48:28] [Server thread/INFO]: Player337 has just earned the achievement [Taking Inventory]
+[17:48:28] [Client thread/INFO]: [CHAT] Player337 has just earned the achievement [Taking Inventory]
+[17:50:26] [Server thread/INFO]: Saving and pausing game...
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
+[17:50:26] [Server thread/INFO]: Stopping server
+[17:50:26] [Server thread/INFO]: Saving players
+[17:50:26] [Server thread/INFO]: Saving worlds
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Overworld
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/Nether
+[17:50:26] [Server thread/INFO]: Saving chunks for level 'MUST FIND TIN'/The End
+[17:50:31] [Client thread/INFO]: Stopping!

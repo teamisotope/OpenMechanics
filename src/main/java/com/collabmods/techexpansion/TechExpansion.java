@@ -1,6 +1,7 @@
 package com.collabmods.techexpansion;
 
 import com.collabmods.techexpansion.blocks.CopperOre;
+import com.collabmods.techexpansion.item.TechExpansionItems;
 import com.collabmods.techexpansion.proxies.CommonProxy;
 
 import cpw.mods.fml.common.Mod;
@@ -50,6 +51,10 @@ public class TechExpansion {
 		proxy.init(e);
 		OreDictionary.registerOre("oreCopper", new ItemStack(Item.getItemFromBlock(TechExpansionBlocks.copperOre)));
 		OreDictionary.registerOre("oreTin", new ItemStack(Item.getItemFromBlock(TechExpansionBlocks.tinOre)));
+		OreDictionary.registerOre("oreAluminum", new ItemStack(Item.getItemFromBlock(TechExpansionBlocks.aluminumOre)));
+		OreDictionary.registerOre("ingotCopper", TechExpansionItems.copperIngot);
+		OreDictionary.registerOre("ingotTin", TechExpansionItems.tinIngot);
+		OreDictionary.registerOre("ingotAluminum", TechExpansionItems.aluminumIngot);
 	}
 	
 	//postinit
