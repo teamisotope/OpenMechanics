@@ -23,19 +23,19 @@ public class TechExpansion {
 	public static final String VERSION = "v0.1";
 	//preinit
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
-		proxy.preInit(e);
+	public void preInit(FMLPreInitializationEvent event) {
+		
 	}
 	
 	//init
 	@EventHandler
-	public void init(FMLInitializationEvent e) {
-		proxy.init(e);
+	public void init(FMLInitializationEvent event) {
+		
 	}
 	
 	//postinit
 	@EventHandler
-	public void postInit(FMLPostInitializationEvent e) {
-		proxy.postInit(e);
+	public void postInit(FMLPostInitializationEvent event) {
+		
 	}
 }
