@@ -1,7 +1,13 @@
 tile.copperOre.name=Copper Ore
 tile.tinOre.name=Tin Ore
+tile.aluminumOre.name=Aluminum Ore
+
 tile.copperBlock.name=Copper Block
 tile.tinBlock.name=Tin Block
+tile.aluminumBlock.name=Aluminum Block
+
 itemGroup.techExpansion=§6Tech Expansion
+
 item.copperIngot.name=Copper Ingot
 item.tinIngot.name=Tin Ingot
+item.aluminumIngot.name=Aluminum Ingot
