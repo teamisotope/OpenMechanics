@@ -1,7 +1,5 @@
 package com.collabmods.techexpansion.blocks;
 
-import com.collabmods.techexpansion.TechExpansion;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,7 +9,7 @@ public class TinOre extends Block{
 		super(material);
 		this.setBlockName(unlocalizedName)
 		.setBlockTextureName("techExpansion:tin_ore")
-		.setCreativeTab(TechExpansion.techExpansion)
+		.setCreativeTab(CreativeTabs.tabBlock)
 		.setHardness(2.5f)
 		.setResistance(13.0f)
 		.setStepSound(soundTypeStone)
