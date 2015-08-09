@@ -1,0 +1,16 @@
+[
+{
+  "modid": "techExpansion",
+  "name": "Tech Expansion",
+  "description": "A mod that adds new ores and toys to play with.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://collaborationmods.wordpress.com/techexpansion",
+  "updateUrl": "",
+  "authorList": ["dadarkgragon","The_Puzzlemaker"],
+  "credits": "Just two peoples making modsssss.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
