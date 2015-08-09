@@ -1,0 +1,11 @@
+package com.collabmods.techexpansion;
+
+import net.minecraft.block.Block;
+
+public final class TechExpansionBlocks {
+	public static Block tutorialBlock;
+	
+	public static final void init() {
+		
+	}
+}
