@@ -20,5 +20,11 @@ public class TechExpansionCrafting {
 				"ttt",
 				"ttt", 't', TechExpansionItems.tinIngot
 		});
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperIngot, 9), new Object[] {
+				"c", 'c', TechExpansionBlocks.copperBlock
+		});
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.tinIngot, 9), new Object[] {
+				"t", 't', TechExpansionBlocks.tinBlock
+		});
 	}
 }
