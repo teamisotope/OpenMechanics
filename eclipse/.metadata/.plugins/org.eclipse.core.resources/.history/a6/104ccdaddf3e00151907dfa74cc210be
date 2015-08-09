@@ -1,22 +1,19 @@
 package com.collabmods.techexpansion.blocks;
 
-import com.collabmods.techexpansion.TechExpansion;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
-public class CopperOre extends Block{
-
-	public CopperOre(String unlocalizedName, Material material) {
+public class TinBlock extends Block{
+	
+	public TinBlock(String unlocalizedName, Material material) {
 		super(material);
 		this.setBlockName(unlocalizedName)
-		.setBlockTextureName("techExpansion:copper_ore")
-		.setCreativeTab(TechExpansion.techExpansion)
+		.setBlockTextureName("techExpansion:tin_block")
+		.setCreativeTab(CreativeTabs.tabBlock)
 		.setHardness(3.0f)
 		.setResistance(15.0f)
-		.setStepSound(soundTypeStone)
+		.setStepSound(soundTypeMetal)
 		.setHarvestLevel("pickaxe", 1);
 	}
-	
 }
