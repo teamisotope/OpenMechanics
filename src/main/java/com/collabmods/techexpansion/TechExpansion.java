@@ -12,6 +12,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.oredict.OreDictionary;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
@@ -22,6 +23,12 @@ import cpw.mods.fml.relauncher.SideOnly;
 @Mod(modid = TechExpansion.MODID, name = TechExpansion.MODNAME, version = TechExpansion.VERSION)
 
 public class TechExpansion {
+	
+	//tool materials
+	public static Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("COPPER", 2, 260, 6.3f, 2.1f, 14);
+	public static Item.ToolMaterial TIN = EnumHelper.addToolMaterial("TIN", 2, 250, 6.0f, 2.0f, 14);
+	public static Item.ToolMaterial ALUMINUM = EnumHelper.addToolMaterial("ALUMINUM", 2, 255, 6.2f, 2.0f, 14);
+	
 	
 	public static CreativeTabs techExpansion = new CreativeTabs("techExpansion") {
 		@Override

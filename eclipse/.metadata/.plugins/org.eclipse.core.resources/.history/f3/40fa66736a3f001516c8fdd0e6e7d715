@@ -1,0 +1,39 @@
+package com.collabmods.techexpansion.item;
+
+import com.collabmods.techexpansion.TechExpansion;
+import com.collabmods.techexpansion.item.tools.ItemCopperPickaxe;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+
+public class TechExpansionItems {
+	
+	//ingots
+
+	public static TechExpansionItem copperIngot;
+	public static TechExpansionItem tinIngot;
+	public static TechExpansionItem aluminumIngot;
+	
+	//tools
+	
+	public static ItemCopperPickaxe copperPickaxe;
+	public static void loadItems() {
+		//ingots
+		copperIngot = new TechExpansionItem("copperIngot", TechExpansion.techExpansion, "copper_ingot");
+		tinIngot = new TechExpansionItem("tinIngot", TechExpansion.techExpansion, "tin_ingot");
+		aluminumIngot = new TechExpansionItem("aluminumIngot", TechExpansion.techExpansion, "aluminum_ingot");
+		//tool materials
+		public static ToolMaterial COPPER = EnumHelper.addToolMaterial("COPPER", 2, 260, 6.3f, 6.1f, 14);
+		
+		TechExpansionItems.registerItems();
+	}
+	public static void registerItems() {
+		//ingots
+		GameRegistry.registerItem(copperIngot, "copperIngot");
+		GameRegistry.registerItem(tinIngot, "tinIngot");
+		GameRegistry.registerItem(aluminumIngot, "aluminumIngot");
+		//tools
+		GameRegistry.registerItem(copperPickaxe = new ItemCopperPickaxe("copper_pickaxe", COPPER), "copper_pickaxe");
+	}
+}
