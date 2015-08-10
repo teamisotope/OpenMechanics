@@ -1,5 +1,7 @@
 package com.collabmods.techexpansion;
 
+import com.collabmods.techexpansion.armor.TechExpansionArmor;
+import com.collabmods.techexpansion.armor.TinArmor;
 import com.collabmods.techexpansion.item.TechExpansionItems;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -8,12 +10,10 @@ import net.minecraft.item.ItemStack;
 
 public class TechExpansionCrafting {
 	public static void init() {
-		
 		//smelting
 		GameRegistry.addSmelting(TechExpansionBlocks.copperOre, new ItemStack(TechExpansionItems.copperIngot), 1.0F);
 		GameRegistry.addSmelting(TechExpansionBlocks.tinOre, new ItemStack(TechExpansionItems.tinIngot), 1.0F);
 		GameRegistry.addSmelting(TechExpansionBlocks.aluminumOre, new ItemStack(TechExpansionItems.aluminumIngot), 1.0F);
-		
 		//metal blocks
 		GameRegistry.addRecipe(new ItemStack(TechExpansionBlocks.copperBlock), new Object[] {
 				"ccc",
@@ -30,7 +30,6 @@ public class TechExpansionCrafting {
 				"aaa",
 				"aaa", 'a', TechExpansionItems.aluminumIngot
 		});
-		
 		//back into items
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperIngot, 9), new Object[] {
 				"c", 'c', TechExpansionBlocks.copperBlock
@@ -42,11 +41,71 @@ public class TechExpansionCrafting {
 				"a", 'a', TechExpansionBlocks.aluminumBlock
 		});
 		
+		//armor
+		
+		//helmet
+		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperHelmet), new Object[] {
+				"   ",
+				"ccc",
+				"c c",
+				'c', TechExpansionItems.copperIngot
+		});
+		//Chestplate
+		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperChestplate), new Object[] {
+				"c c",
+				"ccc",
+				"ccc",
+				'c', TechExpansionItems.copperIngot 
+		});
+		//Leggings
+		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperLeggings), new Object[] {
+				"ccc",
+				"c c",
+				"c c",
+				'c', TechExpansionItems.copperIngot
+		});
+		//Boots
+		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperBoots), new Object[] {
+				"   ",
+				"c c",
+				"c c",
+				'c', TechExpansionItems.copperIngot
+		});
+		
+		//helmet
+				GameRegistry.addRecipe(new ItemStack(TinArmor.tinHelmet), new Object[] {
+						"   ",
+						"ttt",
+						"t t",
+						't', TechExpansionItems.tinIngot
+				});
+				//Chestplate
+				GameRegistry.addRecipe(new ItemStack(TinArmor.tinChestplate), new Object[] {
+						"t t",
+						"ttt",
+						"ttt",
+						't', TechExpansionItems.tinIngot
+				});
+				//Leggings
+				GameRegistry.addRecipe(new ItemStack(TinArmor.tinLeggings), new Object[] {
+						"ttt",
+						"t t",
+						"t t",
+						't', TechExpansionItems.tinIngot
+				});
+				//Boots
+				GameRegistry.addRecipe(new ItemStack(TinArmor.tinBoots), new Object[] {
+						"   ",
+						"t t",
+						"t t",
+						't', TechExpansionItems.tinIngot
+				});
+		
 		//pickaxe crafting
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperPickaxe), new Object[] {
-				"ccc",
-				" s ",
-				" s ", 'c', TechExpansionItems.copperIngot, 's', Items.stick
+			"ccc",
+			" s ",
+			" s ", 'c', TechExpansionItems.copperIngot, 's', Items.stick
 		});
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.tinPickaxe), new Object[] {
 				"ttt",
@@ -75,15 +134,13 @@ public class TechExpansionCrafting {
 				" s ",
 				" s ", 'a', TechExpansionItems.aluminumIngot, 's', Items.stick
 		});
-		
-		//hoe crafting
-		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperHoe), new Object[] {
-				"cc ",
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.aluminumSpade), new Object[] {
+				" a ",
 				" s ",
-				" s ", 'c', TechExpansionItems.copperIngot, 's', Items.stick
+				" s ", 'a', TechExpansionItems.aluminumIngot, 's', Items.stick
 		});
 		
-		//sword crafting
+			//sword crafting
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperSword), new Object[] {
 				" c ",
 				" c ",

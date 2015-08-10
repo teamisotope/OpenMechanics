@@ -10,7 +10,12 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.oredict.OreDictionary;
@@ -19,15 +24,15 @@ import net.minecraft.creativetab.CreativeTabs;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-
 @Mod(modid = TechExpansion.MODID, name = TechExpansion.MODNAME, version = TechExpansion.VERSION)
 
 public class TechExpansion {
 	
-	//tool materials
+		//tool materials
 	public static Item.ToolMaterial COPPER = EnumHelper.addToolMaterial("COPPER", 2, 260, 6.3f, 2.1f, 14);
 	public static Item.ToolMaterial TIN = EnumHelper.addToolMaterial("TIN", 2, 250, 6.0f, 2.0f, 14);
 	public static Item.ToolMaterial ALUMINUM = EnumHelper.addToolMaterial("ALUMINUM", 2, 255, 6.2f, 2.0f, 14);
+	
 	
 	
 	public static CreativeTabs techExpansion = new CreativeTabs("techExpansion") {
@@ -51,6 +56,12 @@ public class TechExpansion {
 		proxy.preInit(e);
 		TechExpansionCrafting.init();
 	}
+	
+	//ArmorMaterial
+	public static ArmorMaterial COPPER = EnumHelper.addArmorMaterial("COPPER", 20, new int[]{3, 6, 5, 4}, 12);
+	public static ArmorMaterial TIN = EnumHelper.addArmorMaterial("TIN", 18, new int[]{3, 6, 5, 2}, 10);
+	public static ArmorMaterial ALUMINUM = EnumHelper.addArmorMaterial("ALUMINUM", 19, new int[]{3, 6, 5, 3}, 11);
+	
 	
 	//init
 	@EventHandler
