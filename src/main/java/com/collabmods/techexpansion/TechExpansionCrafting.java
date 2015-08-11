@@ -1,6 +1,6 @@
 package com.collabmods.techexpansion;
 
-import com.collabmods.techexpansion.armor.TechExpansionArmor;
+import com.collabmods.techexpansion.armor.CopperArmor;
 import com.collabmods.techexpansion.armor.TinArmor;
 import com.collabmods.techexpansion.item.TechExpansionItems;
 
@@ -44,28 +44,28 @@ public class TechExpansionCrafting {
 		//armor
 		
 		//helmet
-		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperHelmet), new Object[] {
+		GameRegistry.addRecipe(new ItemStack(CopperArmor.copperHelmet), new Object[] {
 				"   ",
 				"ccc",
 				"c c",
 				'c', TechExpansionItems.copperIngot
 		});
 		//Chestplate
-		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperChestplate), new Object[] {
+		GameRegistry.addRecipe(new ItemStack(CopperArmor.copperChestplate), new Object[] {
 				"c c",
 				"ccc",
 				"ccc",
 				'c', TechExpansionItems.copperIngot 
 		});
 		//Leggings
-		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperLeggings), new Object[] {
+		GameRegistry.addRecipe(new ItemStack(CopperArmor.copperLeggings), new Object[] {
 				"ccc",
 				"c c",
 				"c c",
 				'c', TechExpansionItems.copperIngot
 		});
 		//Boots
-		GameRegistry.addRecipe(new ItemStack(TechExpansionArmor.copperBoots), new Object[] {
+		GameRegistry.addRecipe(new ItemStack(CopperArmor.copperBoots), new Object[] {
 				"   ",
 				"c c",
 				"c c",

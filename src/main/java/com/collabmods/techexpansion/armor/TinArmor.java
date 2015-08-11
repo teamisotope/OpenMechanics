@@ -16,19 +16,22 @@ public class TinArmor {
 		// tin
 
 		// helmet
-		tinHelmet = new TinArmo("tinHelmet", TechExpansion.TIN, "tin_armor", 0, "tin_helmet", "tin/");
+		tinHelmet = new TinArmo("tinHelmet", TechExpansion.TINA, "tin_armor", 0, "tin/tin_helmet", "tin/");
 
 		// chestplate
-		tinChestplate = new TinArmo("tinChestplate", TechExpansion.TIN, "tin_armor", 1, "tin_chestplate", "tin/");
+		tinChestplate = new TinArmo("tinChestplate", TechExpansion.TINA, "tin_armor", 1, "tin/tin_chestplate", "tin/");
 
 		// leggings
-		tinLeggings = new TinArmo("tinLeggings", TechExpansion.TIN, "tin_armor", 2, "tin_leggings", "tin/");
+		tinLeggings = new TinArmo("tinLeggings", TechExpansion.TINA, "tin_armor", 2, "tin/tin_leggings", "tin/");
 
 		// boots
-		tinBoots = new TinArmo("tinBoots", TechExpansion.TIN, "tin_armor", 3, "tin_boots", "tin/");
+		tinBoots = new TinArmo("tinBoots", TechExpansion.TINA, "tin_armor", 3, "tin/tin_boots", "tin/");
+		
+		AluminumArmor.loadArmorItem();
+		TinArmor.registerTinArmor();
 	}
 	
-	public static void registerTinArmor() {
+	private static void registerTinArmor() {
 	
 
 		GameRegistry.registerItem(tinHelmet, "tin_helmet");

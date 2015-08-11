@@ -1,6 +1,7 @@
 package com.collabmods.techexpansion.item;
 
 import com.collabmods.techexpansion.TechExpansion;
+import com.collabmods.techexpansion.armor.CopperArmor;
 import com.collabmods.techexpansion.item.tools.ItemAluminumPickaxe;
 import com.collabmods.techexpansion.item.tools.ItemAluminumSpade;
 import com.collabmods.techexpansion.item.tools.ItemAluminumSword;
@@ -51,10 +52,11 @@ public class TechExpansionItems {
 	
 	public static void loadItems() {
 		//ingots
-		copperIngot = new TechExpansionItem("copperIngot", TechExpansion.techExpansion, "copper_ingot");
-		tinIngot = new TechExpansionItem("tinIngot", TechExpansion.techExpansion, "tin_ingot");
-		aluminumIngot = new TechExpansionItem("aluminumIngot", TechExpansion.techExpansion, "aluminum_ingot");
+		copperIngot = new TechExpansionItem("copperIngot", TechExpansion.techExpansion, "copper/copper_ingot");
+		tinIngot = new TechExpansionItem("tinIngot", TechExpansion.techExpansion, "tin/tin_ingot");
+		aluminumIngot = new TechExpansionItem("aluminumIngot", TechExpansion.techExpansion, "aluminum/aluminum_ingot");
 		
+		CopperArmor.loadArmorItem();
 		TechExpansionItems.registerItems();
 	}
 	public static void registerItems() {

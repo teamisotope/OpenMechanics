@@ -58,9 +58,9 @@ public class TechExpansion {
 	}
 	
 	//ArmorMaterial
-	public static ArmorMaterial COPPER = EnumHelper.addArmorMaterial("COPPER", 20, new int[]{3, 6, 5, 4}, 12);
-	public static ArmorMaterial TIN = EnumHelper.addArmorMaterial("TIN", 18, new int[]{3, 6, 5, 2}, 10);
-	public static ArmorMaterial ALUMINUM = EnumHelper.addArmorMaterial("ALUMINUM", 19, new int[]{3, 6, 5, 3}, 11);
+	public static ArmorMaterial COPPERA = EnumHelper.addArmorMaterial("COPPER", 20, new int[]{3, 6, 5, 4}, 12);
+	public static ArmorMaterial TINA = EnumHelper.addArmorMaterial("TIN", 18, new int[]{3, 6, 5, 2}, 10);
+	public static ArmorMaterial ALUMINUMA = EnumHelper.addArmorMaterial("ALUMINUM", 19, new int[]{3, 6, 5, 3}, 11);
 	
 	
 	//init

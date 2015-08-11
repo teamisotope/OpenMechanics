@@ -6,12 +6,12 @@ import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
 
-public class TechExpansionArmo extends ItemArmor{
+public class CopperArmo extends ItemArmor{
 
 	public static String textureName;
 	public static String extrapath;
 	
-	public TechExpansionArmo(String unlocalizedName, ArmorMaterial material, String textureName, int type, String itemTextureName, String extrapath) {
+	public CopperArmo(String unlocalizedName, ArmorMaterial material, String textureName, int type, String itemTextureName, String extrapath) {
 		super(material, 0, type);
 		this.textureName = textureName;
 		this.extrapath = extrapath;

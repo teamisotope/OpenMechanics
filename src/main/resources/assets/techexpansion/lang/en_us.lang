@@ -23,6 +23,15 @@ item.copperChestplate.name=Copper Chestplate
 item.copperLeggings.name=Copper Leggings
 item.copperBoots.name=Copper Boots
 
+item.tinHelmet.name=Tin Helmet
+item.tinChestplate.name=Tin Chestplate
+item.tinLeggings.name=Tin Leggings
+item.tinBoots.name=Tin Boots
+
+item.aluminumHelmet.name=Aluminum Helmet
+item.aluminumChestplate.name=Aluminum Chestplate
+item.aluminumLeggings.name=Aluminum Leggings
+item.aluminumBoots.name=Aluminum Boots
 
 item.tin_pickaxe.name=Tin Pickaxe
 item.tin_spade.name=Tin Shovel
@@ -31,7 +40,3 @@ item.tin_sword.name=Tin Sword
 item.aluminum_pickaxe.name=Aluminum Pickaxe
 item.aluminum_spade.name=Aluminum Shovel
 
-item.tinHelmet.name=Tin Helmet
-item.tinChestplate.name=Tin Chestplate
-item.tinLeggings.name=Tin Leggings
-item.tinBoots.name=Tin Boots
