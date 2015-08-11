@@ -3,7 +3,6 @@ package com.collabmods.techexpansion.proxies;
 import com.collabmods.techexpansion.TechExpansionBlocks;
 import com.collabmods.techexpansion.item.TechExpansionItems;
 import com.collabmods.techexpansion.TechExpansionWorldGen;
-import com.collabmods.techexpansion.event.TechExpansionConnectionHandler;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;

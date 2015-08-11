@@ -1,5 +1,6 @@
 package com.collabmods.techexpansion;
 
+import com.collabmods.techexpansion.armor.AluminumArmor;
 import com.collabmods.techexpansion.armor.CopperArmor;
 import com.collabmods.techexpansion.armor.TinArmor;
 import com.collabmods.techexpansion.item.TechExpansionItems;
@@ -99,6 +100,38 @@ public class TechExpansionCrafting {
 						"t t",
 						"t t",
 						't', TechExpansionItems.tinIngot
+				});
+				
+				//Helmet
+				GameRegistry.addRecipe(new ItemStack(AluminumArmor.aluminumHelmet), new Object[] {
+						"aaa",
+						"a a",
+						"   ",
+						'a', TechExpansionItems.aluminumIngot
+				}); 
+				
+				//Chestplate
+				GameRegistry.addRecipe(new ItemStack(AluminumArmor.aluminumChestplate), new Object[] {
+						"a a",
+						"aaa",
+						"aaa",
+						'a', TechExpansionItems.aluminumIngot
+				});
+				
+				//Leggings
+				GameRegistry.addRecipe(new ItemStack(AluminumArmor.aluminumLeggings), new Object[] {
+						"aaa",
+						"a a",
+						"a a",
+						'a', TechExpansionItems.aluminumIngot
+				});
+				
+				//Boots
+				GameRegistry.addRecipe(new ItemStack(AluminumArmor.aluminumBoots), new Object[] {
+						"   ",
+						"a a",
+						"a a",
+						'a', TechExpansionItems.aluminumIngot
 				});
 		
 		//pickaxe crafting

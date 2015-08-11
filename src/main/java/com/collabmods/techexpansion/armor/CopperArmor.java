@@ -19,16 +19,16 @@ public class CopperArmor {
 		// copper
 
 		// helmet
-		copperHelmet = new CopperArmo("copperHelmet", TechExpansion.COPPERA, "copper_armor", 0, "copper/copper_helmet", "copper/");
+		copperHelmet = new CopperArmo("copperHelmet", TechExpansion.COPPERA, "copper_armor", 0, "copper/armor/copper_helmet", "copper/");
 
 		// chestplate
-		copperChestplate = new CopperArmo("copperChestplate", TechExpansion.COPPERA, "copper_armor", 1, "copper/copper_chestplate", "copper/");
+		copperChestplate = new CopperArmo("copperChestplate", TechExpansion.COPPERA, "copper_armor", 1, "copper/armor/copper_chestplate", "copper/");
 
 		// leggings
-		copperLeggings = new CopperArmo("copperLeggings", TechExpansion.COPPERA, "copper_armor", 2, "copper/copper_leggings", "copper/");
+		copperLeggings = new CopperArmo("copperLeggings", TechExpansion.COPPERA, "copper_armor", 2, "copper/armor/copper_leggings", "copper/");
 
 		// boots
-		copperBoots = new CopperArmo("copperBoots", TechExpansion.COPPERA, "copper_armor", 3, "copper/copper_boots", "copper/");
+		copperBoots = new CopperArmo("copperBoots", TechExpansion.COPPERA, "copper_armor", 3, "copper/armor/copper_boots", "copper/");
 
 		TinArmor.loadTinArmor();
 		CopperArmor.registerCopperArmor();

@@ -13,16 +13,16 @@ public class AluminumArmor {
 
 	public static void loadArmorItem(){
 				// helmet
-				aluminumHelmet = new AluminumArmo("aluminumHelmet", TechExpansion.ALUMINUMA, "aluminum_armor", 0, "aluminum/aluminum_helmet", "aluminum/");
+				aluminumHelmet = new AluminumArmo("aluminumHelmet", TechExpansion.ALUMINUMA, "aluminum_armor", 0, "aluminum/armor/aluminum_helmet", "aluminum/");
 
 				// chestplate
-				aluminumChestplate = new AluminumArmo("aluminumChestplate", TechExpansion.ALUMINUMA, "aluminum_armor", 1, "aluminum/aluminum_chestplate", "aluminum/");
+				aluminumChestplate = new AluminumArmo("aluminumChestplate", TechExpansion.ALUMINUMA, "aluminum_armor", 1, "aluminum/armor/aluminum_chestplate", "aluminum/");
 
 				// leggings
-				aluminumLeggings = new AluminumArmo("aluminumLeggings", TechExpansion.ALUMINUMA, "aluminum_armor", 2, "aluminum/aluminum_leggings", "aluminum/");
+				aluminumLeggings = new AluminumArmo("aluminumLeggings", TechExpansion.ALUMINUMA, "aluminum_armor", 2, "aluminum/armor/aluminum_leggings", "aluminum/");
 
 				// boots
-				aluminumBoots = new AluminumArmo("aluminumBoots", TechExpansion.ALUMINUMA, "aluminum_armor", 3, "aluminum/aluminum_boots", "aluminum/");
+				aluminumBoots = new AluminumArmo("aluminumBoots", TechExpansion.ALUMINUMA, "aluminum_armor", 3, "aluminum/armor/aluminum_boots", "aluminum/");
 
 		AluminumArmor.registerAluminumArmor();
 	}
