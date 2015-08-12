@@ -11,6 +11,6 @@ public class ItemTinAxe extends ItemAxe{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:tin_axe");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

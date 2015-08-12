@@ -69,22 +69,22 @@ public class TechExpansionItems {
 		
 		//tools
 		GameRegistry.registerItem(copperPickaxe = new ItemCopperPickaxe("copper_pickaxe", TechExpansion.COPPER), "copper_pickaxe");
-		GameRegistry.registerItem(tinPickaxe = new ItemTinPickaxe("tin_pickaxe", TechExpansion.TIN), "tin_pickaxe");
-		GameRegistry.registerItem(aluminumPickaxe = new ItemAluminumPickaxe("aluminum_pickaxe", TechExpansion.ALUMINUM), "aluminum_pickaxe");
-		
 		GameRegistry.registerItem(copperSpade = new ItemCopperSpade("copper_spade", TechExpansion.COPPER), "copper_spade");
-		GameRegistry.registerItem(tinSpade = new ItemTinSpade("tin_spade", TechExpansion.TIN), "tin_spade");
-		GameRegistry.registerItem(aluminumSpade = new ItemAluminumSpade("aluminum_spade", TechExpansion.ALUMINUM), "aluminum_spade");
-		
+		GameRegistry.registerItem(copperSword = new ItemCopperSword("copper_sword", TechExpansion.COPPER), "copper_sword");
+		GameRegistry.registerItem(copperAxe = new ItemCopperAxe("copper_axe", TechExpansion.COPPER), "copper_axe");
 		GameRegistry.registerItem(copperHoe = new ItemCopperHoe("copper_hoe", TechExpansion.COPPER), "copper_hoe");
 		
-		GameRegistry.registerItem(copperSword = new ItemCopperSword("copper_sword", TechExpansion.COPPER), "copper_sword");
-		GameRegistry.registerItem(tinSword = new ItemTinSword("tin_sword", TechExpansion.TIN), "tin_sword");
-		GameRegistry.registerItem(aluminumSword = new ItemAluminumSword("aluminum_sword", TechExpansion.ALUMINUM), "aluminum_sword");
 		
-		GameRegistry.registerItem(copperAxe = new ItemCopperAxe("copper_axe", TechExpansion.COPPER), "copper_axe");
+		GameRegistry.registerItem(tinPickaxe = new ItemTinPickaxe("tin_pickaxe", TechExpansion.TIN), "tin_pickaxe");
+		GameRegistry.registerItem(tinSpade = new ItemTinSpade("tin_spade", TechExpansion.TIN), "tin_spade");
+		GameRegistry.registerItem(tinSword = new ItemTinSword("tin_sword", TechExpansion.TIN), "tin_sword");
 		GameRegistry.registerItem(tinAxe = new ItemTinAxe("tin_axe", TechExpansion.TIN), "tin_axe");
+		
+		GameRegistry.registerItem(aluminumPickaxe = new ItemAluminumPickaxe("aluminum_pickaxe", TechExpansion.ALUMINUM), "aluminum_pickaxe");
+		GameRegistry.registerItem(aluminumSpade = new ItemAluminumSpade("aluminum_spade", TechExpansion.ALUMINUM), "aluminum_spade");
+		GameRegistry.registerItem(aluminumSword = new ItemAluminumSword("aluminum_sword", TechExpansion.ALUMINUM), "aluminum_sword");
 		GameRegistry.registerItem(aluminumAxe = new ItemAluminumAxe("aluminum_axe", TechExpansion.ALUMINUM), "aluminum_axe");
+
 		
 	}
 }

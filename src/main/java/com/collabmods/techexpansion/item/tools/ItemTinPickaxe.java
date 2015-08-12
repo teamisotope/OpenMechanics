@@ -9,6 +9,6 @@ public class ItemTinPickaxe extends ItemPickaxe{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:tin_pickaxe");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

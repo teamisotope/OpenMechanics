@@ -10,6 +10,6 @@ public class ItemTinSpade extends ItemSpade{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:tin_spade");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

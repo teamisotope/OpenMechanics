@@ -43,6 +43,14 @@ public class TechExpansion {
 		}
 	};
 	
+	public static CreativeTabs techExpansionTools = new CreativeTabs("techExpansionTools") {
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+			return TechExpansionItems.copperPickaxe;
+		}
+	};
+	
 	@SidedProxy(clientSide="com.collabmods.techexpansion.proxies.ClientProxy", serverSide="com.collabmods.techexpansion.proxies.ServerProxy" )
 	public static CommonProxy proxy;
 

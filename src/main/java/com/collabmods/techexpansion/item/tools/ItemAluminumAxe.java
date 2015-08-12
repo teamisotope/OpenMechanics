@@ -10,6 +10,6 @@ public class ItemAluminumAxe extends ItemAxe{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:aluminum_axe");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

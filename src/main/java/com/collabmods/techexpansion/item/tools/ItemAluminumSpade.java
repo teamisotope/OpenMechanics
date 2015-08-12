@@ -10,6 +10,6 @@ public class ItemAluminumSpade extends ItemSpade{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:aluminum_spade");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

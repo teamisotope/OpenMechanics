@@ -10,6 +10,6 @@ public class ItemCopperPickaxe extends ItemPickaxe{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:copper_pickaxe");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

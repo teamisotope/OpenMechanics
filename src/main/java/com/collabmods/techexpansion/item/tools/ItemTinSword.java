@@ -10,6 +10,6 @@ public class ItemTinSword extends ItemSword{
 			super(material);
 			this.setUnlocalizedName(unlocalizedName);
 			this.setTextureName("techExpansion:tin_sword");
-			this.setCreativeTab(TechExpansion.techExpansion);
+			this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }

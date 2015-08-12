@@ -42,7 +42,8 @@
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemTinSword"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemAluminumSword"/>
-<fullyQualifiedTypeName name="com.collabmods.techexpansion.TechExpansion"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemCopperAxe"/>
+<fullyQualifiedTypeName name="com.collabmods.techexpansion.TechExpansion"/>
+<fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemAluminumAxe"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.TechExpansionItems"/>
 </qualifiedTypeNameHistroy>

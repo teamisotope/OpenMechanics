@@ -10,6 +10,6 @@ public class ItemAluminumPickaxe extends ItemPickaxe{
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setTextureName("techExpansion:aluminum_pickaxe");
-		this.setCreativeTab(TechExpansion.techExpansion);
+		this.setCreativeTab(TechExpansion.techExpansionTools);
 	}
 }
