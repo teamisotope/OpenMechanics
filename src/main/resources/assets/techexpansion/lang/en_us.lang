@@ -17,6 +17,7 @@ item.copper_pickaxe.name=Copper Pickaxe
 item.copper_spade.name=Copper Shovel
 item.copper_hoe.name=Copper Hoe
 item.copper_sword.name=Copper Sword
+item.copper_axe.name=Copper Axe
 
 item.copperHelmet.name=Copper Helmet
 item.copperChestplate.name=Copper Chestplate
@@ -36,7 +37,10 @@ item.aluminumBoots.name=Aluminum Boots
 item.tin_pickaxe.name=Tin Pickaxe
 item.tin_spade.name=Tin Shovel
 item.tin_sword.name=Tin Sword
+item.tin_axe.name=Tin Axe
 
 item.aluminum_pickaxe.name=Aluminum Pickaxe
+item.aluminum_sword.name=Aluminum Sword
 item.aluminum_spade.name=Aluminum Shovel
+item.aluminum_axe.name=Aluminum Axe
 

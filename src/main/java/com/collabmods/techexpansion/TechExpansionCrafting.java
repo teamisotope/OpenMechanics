@@ -133,7 +133,12 @@ public class TechExpansionCrafting {
 						"a a",
 						'a', TechExpansionItems.aluminumIngot
 				});
-		
+		//hoe
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperHoe), new Object[] {
+				"cc ",
+				" s ",
+				" s ", 'c', TechExpansionItems.copperIngot, 's', Items.stick
+		});
 		//pickaxe crafting
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperPickaxe), new Object[] {
 			"ccc",
@@ -184,12 +189,27 @@ public class TechExpansionCrafting {
 				" t ",
 				" s ", 't', TechExpansionItems.tinIngot, 's', Items.stick
 		});
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.aluminumSword), new Object[] {
+				" a ",
+				" a ",
+				" s ", 'a', TechExpansionItems.aluminumIngot, 's', Items.stick
+		});
 		
 		//axe crafting
 		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.copperAxe), new Object[] {
 				"cc ",
 				"cs ",
 				" s ", 'c', TechExpansionItems.copperIngot, 's', Items.stick
+		});
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.tinAxe), new Object[] {
+				"tt ",
+				"ts ",
+				" s ", 't', TechExpansionItems.tinIngot, 's', Items.stick
+		});
+		GameRegistry.addRecipe(new ItemStack(TechExpansionItems.aluminumAxe), new Object[] {
+				"aa ",
+				"as ",
+				" s ", 'a', TechExpansionItems.aluminumIngot, 's', Items.stick
 		});
 		
 	}
