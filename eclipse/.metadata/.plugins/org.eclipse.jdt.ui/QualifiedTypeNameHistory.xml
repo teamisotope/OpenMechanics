@@ -43,7 +43,11 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemAluminumSword"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemCopperAxe"/>
-<fullyQualifiedTypeName name="com.collabmods.techexpansion.TechExpansion"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.tools.ItemAluminumAxe"/>
 <fullyQualifiedTypeName name="com.collabmods.techexpansion.item.TechExpansionItems"/>
+<fullyQualifiedTypeName name="com.collabmods.techexpansion.blocks.TileEntityWithInventorytest"/>
+<fullyQualifiedTypeName name="com.collabmods.techexpansion.TechExpansion"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockContainer"/>
+<fullyQualifiedTypeName name="net.minecraft.tileentity.TileEntity"/>
+<fullyQualifiedTypeName name="net.minecraft.world.World"/>
 </qualifiedTypeNameHistroy>

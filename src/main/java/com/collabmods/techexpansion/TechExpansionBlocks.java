@@ -18,7 +18,7 @@ public final class TechExpansionBlocks {
 	public static Block tinBlock;
 	public static Block aluminumOre;
 	public static Block aluminumBlock;
-	
+
 	public static final void init() {
 		GameRegistry.registerBlock(copperOre = new CopperOre("copperOre", Material.iron), "copperOre");
 		GameRegistry.registerBlock(tinOre = new TinOre("tinOre", Material.iron), "tinOre");

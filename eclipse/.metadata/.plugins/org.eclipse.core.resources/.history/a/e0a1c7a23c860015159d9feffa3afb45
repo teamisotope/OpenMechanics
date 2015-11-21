@@ -1,0 +1,7 @@
+package com.collabmods.techexpansion.blocks;
+
+import net.minecraft.block.Block;
+
+public class TileEntityWithInventorytest extends Block {
+
+}
