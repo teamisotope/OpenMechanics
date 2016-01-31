@@ -2,19 +2,7 @@ package com.collabmods.techexpansion.item;
 
 import com.collabmods.techexpansion.TechExpansion;
 import com.collabmods.techexpansion.armor.CopperArmor;
-import com.collabmods.techexpansion.item.tools.ItemAluminumAxe;
-import com.collabmods.techexpansion.item.tools.ItemAluminumPickaxe;
-import com.collabmods.techexpansion.item.tools.ItemAluminumSpade;
-import com.collabmods.techexpansion.item.tools.ItemAluminumSword;
-import com.collabmods.techexpansion.item.tools.ItemCopperAxe;
-import com.collabmods.techexpansion.item.tools.ItemCopperHoe;
-import com.collabmods.techexpansion.item.tools.ItemCopperPickaxe;
-import com.collabmods.techexpansion.item.tools.ItemCopperSpade;
-import com.collabmods.techexpansion.item.tools.ItemCopperSword;
-import com.collabmods.techexpansion.item.tools.ItemTinAxe;
-import com.collabmods.techexpansion.item.tools.ItemTinPickaxe;
-import com.collabmods.techexpansion.item.tools.ItemTinSpade;
-import com.collabmods.techexpansion.item.tools.ItemTinSword;
+import com.collabmods.techexpansion.item.tools.*;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.ItemAxe;
