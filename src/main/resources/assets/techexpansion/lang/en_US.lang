@@ -1,0 +1,30 @@
+< creative tabs >
+itemGroup.tab_techExpansion=§2TechExpansion
+
+< ingots >
+
+item.copper_ingot.name=Copper Ingot
+item.aluminum_ingot.name=Aluminum Ingot
+item.tin_ingot.name=Tin Ingot
+
+< ores >
+
+tile.copper_ore.name=Copper Ore
+tile.aluminum_ore.name=Aluminum Ore
+tile.tin_ore.name=Tin Ore
+
+< blocks >
+
+tile.copper_block.name=Copper Block
+tile.aluminum_block.name=Aluminum Block
+tile.tin_block.name=Tin Block
+
+< achievements >
+achievement.copper=Copper!
+achievement.copper.desc=Find copper and mine it
+
+achievement.aluminum=Aluminum!
+achievement.aluminum.desc=Find aluminum and mine it
+
+achievement.tin=Tin!
+achievement.tin.desc=Find tin and mine it

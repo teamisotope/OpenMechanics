@@ -1,8 +1,11 @@
 package com.teamiurg.techexpansion;
 
+import com.teamiurg.techexpansion.block.TEBlocks;
 import com.teamiurg.techexpansion.engine.proxy.CommonProxy;
 import com.teamiurg.techexpansion.utils.Reference;
 
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -22,6 +25,7 @@ public class TechExpansion {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent evt) {
 		Initialization.preInit();
+		//world#23seed=2963109850767971935
 	}
 	
 	@EventHandler
@@ -34,6 +38,14 @@ public class TechExpansion {
 	public void postInit(FMLPostInitializationEvent evt) {
 		Initialization.postInit();
 	}
+	
+	public static CreativeTabs tab_techExpansion = new CreativeTabs("tab_techExpansion") {
+		@Override
+		public Item getTabIconItem() {
+			return Item.getItemFromBlock(TEBlocks.copper_block);
+		}
+		
+	};
 	
 	
 }
