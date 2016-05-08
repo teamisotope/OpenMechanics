@@ -1,10 +1,7 @@
 package com.teamiurg.techexpansion;
 
 import com.teamiurg.techexpansion.block.TEBlocks;
-import com.teamiurg.techexpansion.engine.handlers.AchievementHandler;
-import com.teamiurg.techexpansion.engine.handlers.OreDictionaryHandler;
-import com.teamiurg.techexpansion.engine.handlers.RecipeHandler;
-import com.teamiurg.techexpansion.engine.handlers.WorldGenerationHandler;
+import com.teamiurg.techexpansion.engine.handlers.*;
 import com.teamiurg.techexpansion.item.TEItems;
 
 import net.minecraftforge.common.MinecraftForge;
