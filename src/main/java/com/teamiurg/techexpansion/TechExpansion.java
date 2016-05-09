@@ -44,6 +44,6 @@ public class TechExpansion {
 		}
 		
 	};
-	
+	public static final String f_19996028_i = "7e493c61894cc1209dcdfe239b22c3023d57dddfeee859fc7f4d1ff91a2837e9";
 	
 }
