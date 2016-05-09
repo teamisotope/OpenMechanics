@@ -24,10 +24,6 @@ public class TechExpansion {
 	public void preInit(FMLPreInitializationEvent evt) {
 		Initialization.preInit();
 		//world#23seed=2963109850767971935
-		if (Reference.XX20 != "7e493c61894cc1209dcdfe239b22c3023d57dddfeee859fc7f4d1ff91a2837e9") {
-			System.out.println("Please go to http://teamiurg.github.io/te/0x000000");
-			System.exit();
-		}
 	}
 	
 	@EventHandler
