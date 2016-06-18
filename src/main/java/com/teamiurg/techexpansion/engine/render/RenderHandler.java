@@ -20,4 +20,16 @@ public class RenderHandler {
 		Item item = Item.getItemFromBlock(block);
 		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.MOD_ID + ":" + item.getUnlocalizedName().substring(5), "inventory"));
 	}
+	@SideOnly(Side.CLIENT)
+	public static void registerRenders(Item... items) {
+		for (int i = 0; i < items.length; i++) {
+			registerRender(items[i]);
+		}
+	}
+	@SideOnly(Side.CLIENT)
+	public static void registerRenders(Block... blocks) {
+		for (int i = 0; i < blocks.length; i++) {
+			registerRender(blocks[i]);
+		}
+	}
 }
