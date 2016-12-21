@@ -6,10 +6,9 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 
 public class TEPickaxe extends ItemPickaxe {
-	public TEPickaxe(ToolMaterial mat, String material, String regName) {
+	public TEPickaxe(ToolMaterial mat, String material) {
 		super(mat);
 		this.setUnlocalizedName(material + "_pickaxe");
 		this.setCreativeTab(TechExpansion.tab_techExpansion);
-		this.setRegistryName(regName);
 	}
 }

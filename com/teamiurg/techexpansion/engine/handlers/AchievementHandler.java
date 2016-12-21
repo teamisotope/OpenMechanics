@@ -25,12 +25,12 @@ public class AchievementHandler {
 	
 	@SubscribeEvent
 	public void playerPickupItem(EntityItemPickupEvent evt) {
-		if (evt.getItem().getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.copper_ore)) {
-			evt.getEntityPlayer().addStat(achCopper);
-		} else if (evt.getItem().getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.aluminum_ore)) {
-			evt.getEntityPlayer().addStat(achAluminum);
-		} else if (evt.getItem().getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.tin_ore)) {
-			evt.getEntityPlayer().addStat(achTin);
+		if (evt.item.getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.copper_ore)) {
+			evt.entityPlayer.triggerAchievement(achCopper);
+		} else if (evt.item.getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.aluminum_ore)) {
+			evt.entityPlayer.triggerAchievement(achAluminum);
+		} else if (evt.item.getEntityItem().getItem() == Item.getItemFromBlock(TEBlocks.tin_ore)) {
+			evt.entityPlayer.triggerAchievement(achTin);
 		}
 	}
 }

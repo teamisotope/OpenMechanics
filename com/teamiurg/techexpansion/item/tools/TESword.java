@@ -6,10 +6,9 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemSword;
 
 public class TESword extends ItemSword {
-	public TESword(ToolMaterial mat, String material, String regName) {
+	public TESword(ToolMaterial mat, String material) {
 		super(mat);
 		this.setUnlocalizedName(material + "_sword");
 		this.setCreativeTab(TechExpansion.tab_techExpansion);
-		this.setRegistryName(regName);
 	}
 }

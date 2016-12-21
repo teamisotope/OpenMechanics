@@ -5,9 +5,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class RegistryHandler {
 	
-	// use unloc as reg name
+	// use unlocalized name
 	public static void registerItems(Item... items) {
 		for (int i = 0; i < items.length; i++) {
+			items[i].setRegistryName(items[i].getRegistryName());
 			GameRegistry.register(items[i]);
 		}
 	}
