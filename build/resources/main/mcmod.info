@@ -1,0 +1,16 @@
+[
+{
+  "modid": "TechExpansion",
+  "name": "TechExpansion",
+  "description": "A mod that adds new ores and stuff. GitHub Repo (yes, this IS open-source): http://github.com/teamiurg/TechExpansion",
+  "version": "0.1-1.10",
+  "mcversion": "1.10.2",
+  "url": "http://teamiurg.jimdo.com/mods/techexpansion",
+  "updateUrl": "http://teamiurg.jimdo.com/mods/techexpansion",
+  "authorList": ["The_Puzzlemaker", "dadarkgragon"],
+  "credits": "Bedrock_Miner's tutorials, some other tutorials, too",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
