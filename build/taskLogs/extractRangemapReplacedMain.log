@@ -1,0 +1,62 @@
+Symbol range map extraction starting
+Processing 20 files
+startProcessing "com/teamiurg/techexpansion/Initialization.java" md5: c6396eb352d6bff07de44905570fe063
+endProcessing "com/teamiurg/techexpansion/Initialization.java"
+
+startProcessing "com/teamiurg/techexpansion/TechExpansion.java" md5: 3d2a22979995a56569f33c22c3ed465f
+endProcessing "com/teamiurg/techexpansion/TechExpansion.java"
+
+startProcessing "com/teamiurg/techexpansion/block/TEBlock.java" md5: 19fa1bdbf1995461182319046c9c8bbf
+endProcessing "com/teamiurg/techexpansion/block/TEBlock.java"
+
+startProcessing "com/teamiurg/techexpansion/block/TEBlocks.java" md5: 6729c0f629b15315ebf6cfeb40c93899
+endProcessing "com/teamiurg/techexpansion/block/TEBlocks.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java" md5: e21b2e9a2dc3b76396c5f529b9d61319
+endProcessing "com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java" md5: f3c512145725c6bdfb92e3e943356c19
+endProcessing "com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java" md5: 294cc675b971896bfeb1b2d00e5dc8b2
+endProcessing "com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/proxy/ClientProxy.java" md5: fae133b918f7cea9be821ee4d5f261ef
+endProcessing "com/teamiurg/techexpansion/engine/proxy/ClientProxy.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/proxy/CommonProxy.java" md5: c8da5bb2aa0c4b502cc2d86aa99f06e3
+endProcessing "com/teamiurg/techexpansion/engine/proxy/CommonProxy.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/registry/RegistryHandler.java" md5: ea568c3a282cdde4ba2282c8ce6a99eb
+endProcessing "com/teamiurg/techexpansion/engine/registry/RegistryHandler.java"
+
+startProcessing "com/teamiurg/techexpansion/engine/render/RenderHandler.java" md5: 2ad3b56f05437e8b81f243d94678e110
+endProcessing "com/teamiurg/techexpansion/engine/render/RenderHandler.java"
+
+startProcessing "com/teamiurg/techexpansion/item/TEItem.java" md5: 7a0d6aa768398259fd585ccd3b9fbaf0
+endProcessing "com/teamiurg/techexpansion/item/TEItem.java"
+
+startProcessing "com/teamiurg/techexpansion/item/TEItems.java" md5: ef03257379c76cf9842e358758bd6fae
+endProcessing "com/teamiurg/techexpansion/item/TEItems.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TEAxe.java" md5: 7c0c7b80dd7d3bda679ffd949a7e8bff
+endProcessing "com/teamiurg/techexpansion/item/tools/TEAxe.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TEHoe.java" md5: 589575b920a4e77a6fd261645e9fb404
+endProcessing "com/teamiurg/techexpansion/item/tools/TEHoe.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TEPickaxe.java" md5: ce2951e7ef1b0eb25813f6e411edac8f
+endProcessing "com/teamiurg/techexpansion/item/tools/TEPickaxe.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TEShovel.java" md5: 6510eaf3621fc6752954ba2bb5cb9264
+endProcessing "com/teamiurg/techexpansion/item/tools/TEShovel.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TESword.java" md5: 3f53ef43c578ef7700c8daf09a51f3b5
+endProcessing "com/teamiurg/techexpansion/item/tools/TESword.java"
+
+startProcessing "com/teamiurg/techexpansion/item/tools/TETools.java" md5: aa6c59ccbf180b4457c11ddfc1b263bf
+endProcessing "com/teamiurg/techexpansion/item/tools/TETools.java"
+
+startProcessing "com/teamiurg/techexpansion/utils/Reference.java" md5: 3add0fe769f46fb6e244295fe106dc29
+endProcessing "com/teamiurg/techexpansion/utils/Reference.java"
+
