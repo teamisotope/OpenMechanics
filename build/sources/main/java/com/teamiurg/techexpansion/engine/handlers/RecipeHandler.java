@@ -2,7 +2,7 @@ package com.teamiurg.techexpansion.engine.handlers;
 
 import com.teamiurg.techexpansion.block.TEBlocks;
 import com.teamiurg.techexpansion.item.TEItems;
-//import com.teamiurg.techexpansion.item.tools.TETools;
+import com.teamiurg.techexpansion.item.tools.TETools;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -28,21 +28,21 @@ public class RecipeHandler {
 		GameRegistry.addShapelessRecipe(new ItemStack(TEItems.tin_ingot, 9), new Object[] {TEBlocks.tin_block});
 		
 		/* aluminum -> tools */
-		//GameRegistry.addRecipe(new ItemStack(TETools.aluminum_axe), new Object[] {"aa ","as "," s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.aluminum_pickaxe), new Object[] {"aaa", " s ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.aluminum_shovel), new Object[] {" a ", " s ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.aluminum_sword), new Object[] {" a ", " a ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.aluminum_axe), new Object[] {"aa ","as "," s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.aluminum_pickaxe), new Object[] {"aaa", " s ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.aluminum_shovel), new Object[] {" a ", " s ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.aluminum_sword), new Object[] {" a ", " a ", " s ", 'a', TEItems.aluminum_ingot, 's', Items.STICK});
 		
 		/* copper -> tools */
-		//GameRegistry.addRecipe(new ItemStack(TETools.copper_axe), new Object[] {"cc ", "cs ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.copper_hoe), new Object[] {"cc ", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.copper_pickaxe), new Object[] {"ccc", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.copper_shovel), new Object[] {" c ", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.copper_sword), new Object[] {" c ", " c ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.copper_axe), new Object[] {"cc ", "cs ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.copper_hoe), new Object[] {"cc ", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.copper_pickaxe), new Object[] {"ccc", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.copper_shovel), new Object[] {" c ", " s ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.copper_sword), new Object[] {" c ", " c ", " s ", 'c', TEItems.copper_ingot, 's', Items.STICK});
 		/* tin -> tools */
-		//GameRegistry.addRecipe(new ItemStack(TETools.tin_axe), new Object[] {"tt ", "ts ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.tin_pickaxe), new Object[] {"ttt", " s ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.tin_shovel), new Object[] {" t ", " s ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
-		//GameRegistry.addRecipe(new ItemStack(TETools.tin_sword), new Object[] {" t ", " t ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.tin_axe), new Object[] {"tt ", "ts ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.tin_pickaxe), new Object[] {"ttt", " s ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.tin_shovel), new Object[] {" t ", " s ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
+		GameRegistry.addRecipe(new ItemStack(TETools.tin_sword), new Object[] {" t ", " t ", " s ", 't', TEItems.tin_ingot, 's', Items.STICK});
 	}
 }

@@ -21,9 +21,9 @@ public class TechExpansion {
 	@Mod.Instance
 	public TechExpansion instance;
 
-	public static ToolMaterial TCo;
-	public static ToolMaterial TTin;
-	public static ToolMaterial TAl;
+	public static ToolMaterial TCo = EnumHelper.addToolMaterial("TCo", 2, 260, 6.3f, 2.1f, 14);
+	public static ToolMaterial TTin = EnumHelper.addToolMaterial("TTi", 2, 250, 6.0f, 2.0f, 14);
+	public static ToolMaterial TAl = EnumHelper.addToolMaterial("TAl", 2, 255, 6.2f, 2.0f, 14);
 	
 	
 	@SidedProxy(clientSide=Reference.CLIENT_PROXY_LOCATION,serverSide=Reference.SERVER_PROXY_LOCATION)
@@ -33,9 +33,7 @@ public class TechExpansion {
 	public void preInit(FMLPreInitializationEvent e) {
 		Initialization.preInit();
 		proxy.preInit(e);
-		TCo = EnumHelper.addToolMaterial("TCo", 2, 260, 6.3f, 2.1f, 14);
-		TTin = EnumHelper.addToolMaterial("TTi", 2, 250, 6.0f, 2.0f, 14);
-		TAl = EnumHelper.addToolMaterial("TAl", 2, 255, 6.2f, 2.0f, 14);
+		
 	}
 	
 	@EventHandler

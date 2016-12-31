@@ -1,10 +1,10 @@
-/*package com.teamiurg.techexpansion.item.tools;
+package com.teamiurg.techexpansion.item.tools;
 
 import com.teamiurg.techexpansion.TechExpansion;
-import com.teamiurg.techexpansion.engine.registry.RegistryHandler;
 import com.teamiurg.techexpansion.engine.render.RenderHandler;
 
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class TETools {
 
@@ -23,16 +23,36 @@ public class TETools {
 	public static Item aluminum_sword = new TESword(TechExpansion.TAl, "aluminum", "aluminum_sword");
 
 	public static void registerItems() {
-		RegistryHandler.registerItems(copper_pickaxe, copper_hoe, copper_axe, copper_shovel, copper_sword,
-				tin_pickaxe, tin_axe, tin_shovel, tin_sword, aluminum_pickaxe, aluminum_axe, aluminum_shovel,
-				aluminum_sword);
+		GameRegistry.register(copper_pickaxe);
+		GameRegistry.register(copper_hoe);
+		GameRegistry.register(copper_axe);
+		GameRegistry.register(copper_shovel);
+		GameRegistry.register(copper_sword);
+		GameRegistry.register(tin_pickaxe);
+		GameRegistry.register(tin_axe);
+		GameRegistry.register(tin_shovel);
+		GameRegistry.register(tin_sword);
+		GameRegistry.register(aluminum_pickaxe);
+		GameRegistry.register(aluminum_axe);
+		GameRegistry.register(aluminum_shovel);
+		GameRegistry.register(aluminum_sword);
 	}
 
 	public static void registerRenders() {
-		RenderHandler.registerRenders(copper_pickaxe, copper_hoe, copper_axe, copper_shovel, copper_sword,
-				tin_pickaxe, tin_axe, tin_shovel, tin_sword, aluminum_pickaxe, aluminum_axe, aluminum_shovel,
-				aluminum_sword);
+		RenderHandler.registerRender(copper_pickaxe);
+		RenderHandler.registerRender(copper_hoe);
+		RenderHandler.registerRender(copper_axe);
+		RenderHandler.registerRender(copper_shovel);
+		RenderHandler.registerRender(copper_sword);
+		RenderHandler.registerRender(tin_pickaxe);
+		RenderHandler.registerRender(tin_axe);
+		RenderHandler.registerRender(tin_shovel);
+		RenderHandler.registerRender(tin_sword);
+		RenderHandler.registerRender(aluminum_pickaxe);
+		RenderHandler.registerRender(aluminum_axe);
+		RenderHandler.registerRender(aluminum_shovel);
+		RenderHandler.registerRender(aluminum_sword);
+
 	}
 
 }
-*/

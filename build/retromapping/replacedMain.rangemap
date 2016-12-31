@@ -1,6 +1,7 @@
 Symbol range map extraction starting
 Processing 20 files
 startProcessing "com/teamiurg/techexpansion/Initialization.java" md5: c6396eb352d6bff07de44905570fe063
+Cache Hit!
 @|com/teamiurg/techexpansion/Initialization.java|8|34|com.teamiurg.techexpansion|package|com.teamiurg.techexpansion|(file)
 Class Start: com.teamiurg.techexpansion.Initialization
    @|com/teamiurg/techexpansion/Initialization.java|590|604|Initialization|class|com.teamiurg.techexpansion.Initialization
@@ -35,7 +36,7 @@ Class Start: com.teamiurg.techexpansion.Initialization
 Class End  : com.teamiurg.techexpansion.Initialization
 endProcessing "com/teamiurg/techexpansion/Initialization.java"
 
-startProcessing "com/teamiurg/techexpansion/TechExpansion.java" md5: 3d2a22979995a56569f33c22c3ed465f
+startProcessing "com/teamiurg/techexpansion/TechExpansion.java" md5: 10d82e21d0a5a96976fbbf3fdbc80707
 @|com/teamiurg/techexpansion/TechExpansion.java|8|34|com.teamiurg.techexpansion|package|com.teamiurg.techexpansion|(file)
 Class Start: com.teamiurg.techexpansion.TechExpansion
    @|com/teamiurg/techexpansion/TechExpansion.java|729|732|Mod|class|net.minecraftforge.fml.common.Mod
@@ -56,81 +57,79 @@ Class Start: com.teamiurg.techexpansion.TechExpansion
    @|com/teamiurg/techexpansion/TechExpansion.java|901|913|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
    @|com/teamiurg/techexpansion/TechExpansion.java|901|913|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
    @|com/teamiurg/techexpansion/TechExpansion.java|914|917|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo|
-   @|com/teamiurg/techexpansion/TechExpansion.java|934|946|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com/teamiurg/techexpansion/TechExpansion.java|934|946|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com/teamiurg/techexpansion/TechExpansion.java|947|951|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin|
-   @|com/teamiurg/techexpansion/TechExpansion.java|968|980|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com/teamiurg/techexpansion/TechExpansion.java|968|980|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-   @|com/teamiurg/techexpansion/TechExpansion.java|981|984|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl|
-   @|com/teamiurg/techexpansion/TechExpansion.java|1105|1116|CommonProxy|class|com.teamiurg.techexpansion.engine.proxy.CommonProxy
-   @|com/teamiurg/techexpansion/TechExpansion.java|992|1002|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
-   @|com/teamiurg/techexpansion/TechExpansion.java|1003|1013|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
-   @|com/teamiurg/techexpansion/TechExpansion.java|1014|1023|Reference|class|com.teamiurg.techexpansion.utils.Reference
-   @|com/teamiurg/techexpansion/TechExpansion.java|1024|1045|CLIENT_PROXY_LOCATION|field|com.teamiurg.techexpansion.utils.Reference|CLIENT_PROXY_LOCATION
-   @|com/teamiurg/techexpansion/TechExpansion.java|1046|1056|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
-   @|com/teamiurg/techexpansion/TechExpansion.java|1057|1066|Reference|class|com.teamiurg.techexpansion.utils.Reference
-   @|com/teamiurg/techexpansion/TechExpansion.java|1067|1088|SERVER_PROXY_LOCATION|field|com.teamiurg.techexpansion.utils.Reference|SERVER_PROXY_LOCATION
-   @|com/teamiurg/techexpansion/TechExpansion.java|1105|1116|CommonProxy|class|com.teamiurg.techexpansion.engine.proxy.CommonProxy
-   @|com/teamiurg/techexpansion/TechExpansion.java|1117|1122|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy|
+   @|com/teamiurg/techexpansion/TechExpansion.java|920|930|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com/teamiurg/techexpansion/TechExpansion.java|931|946|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com/teamiurg/techexpansion/TechExpansion.java|994|1006|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com/teamiurg/techexpansion/TechExpansion.java|994|1006|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com/teamiurg/techexpansion/TechExpansion.java|1007|1011|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin|
+   @|com/teamiurg/techexpansion/TechExpansion.java|1014|1024|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com/teamiurg/techexpansion/TechExpansion.java|1025|1040|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com/teamiurg/techexpansion/TechExpansion.java|1088|1100|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com/teamiurg/techexpansion/TechExpansion.java|1088|1100|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com/teamiurg/techexpansion/TechExpansion.java|1101|1104|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl|
+   @|com/teamiurg/techexpansion/TechExpansion.java|1107|1117|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com/teamiurg/techexpansion/TechExpansion.java|1118|1133|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com/teamiurg/techexpansion/TechExpansion.java|1285|1296|CommonProxy|class|com.teamiurg.techexpansion.engine.proxy.CommonProxy
+   @|com/teamiurg/techexpansion/TechExpansion.java|1172|1182|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com/teamiurg/techexpansion/TechExpansion.java|1183|1193|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com/teamiurg/techexpansion/TechExpansion.java|1194|1203|Reference|class|com.teamiurg.techexpansion.utils.Reference
+   @|com/teamiurg/techexpansion/TechExpansion.java|1204|1225|CLIENT_PROXY_LOCATION|field|com.teamiurg.techexpansion.utils.Reference|CLIENT_PROXY_LOCATION
+   @|com/teamiurg/techexpansion/TechExpansion.java|1226|1236|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com/teamiurg/techexpansion/TechExpansion.java|1237|1246|Reference|class|com.teamiurg.techexpansion.utils.Reference
+   @|com/teamiurg/techexpansion/TechExpansion.java|1247|1268|SERVER_PROXY_LOCATION|field|com.teamiurg.techexpansion.utils.Reference|SERVER_PROXY_LOCATION
+   @|com/teamiurg/techexpansion/TechExpansion.java|1285|1296|CommonProxy|class|com.teamiurg.techexpansion.engine.proxy.CommonProxy
+   @|com/teamiurg/techexpansion/TechExpansion.java|1297|1302|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy|
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1188|1189|e|param|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
-      @|com/teamiurg/techexpansion/TechExpansion.java|1128|1140|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com/teamiurg/techexpansion/TechExpansion.java|1154|1161|preInit|method|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1162|1187|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|com/teamiurg/techexpansion/TechExpansion.java|1195|1209|Initialization|class|com.teamiurg.techexpansion.Initialization
-      @|com/teamiurg/techexpansion/TechExpansion.java|1210|1217|preInit|method|com.teamiurg.techexpansion.Initialization|preInit|()V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1223|1228|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
-      @|com/teamiurg/techexpansion/TechExpansion.java|1229|1236|preInit|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1237|1238|e|param|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
-      @|com/teamiurg/techexpansion/TechExpansion.java|1243|1246|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
-      @|com/teamiurg/techexpansion/TechExpansion.java|1249|1259|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-      @|com/teamiurg/techexpansion/TechExpansion.java|1260|1275|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
-      @|com/teamiurg/techexpansion/TechExpansion.java|1310|1314|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin
-      @|com/teamiurg/techexpansion/TechExpansion.java|1317|1327|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-      @|com/teamiurg/techexpansion/TechExpansion.java|1328|1343|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
-      @|com/teamiurg/techexpansion/TechExpansion.java|1378|1381|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl
-      @|com/teamiurg/techexpansion/TechExpansion.java|1384|1394|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-      @|com/teamiurg/techexpansion/TechExpansion.java|1395|1410|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+      @|com/teamiurg/techexpansion/TechExpansion.java|1368|1369|e|param|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
+      @|com/teamiurg/techexpansion/TechExpansion.java|1308|1320|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/teamiurg/techexpansion/TechExpansion.java|1334|1341|preInit|method|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1342|1367|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com/teamiurg/techexpansion/TechExpansion.java|1375|1389|Initialization|class|com.teamiurg.techexpansion.Initialization
+      @|com/teamiurg/techexpansion/TechExpansion.java|1390|1397|preInit|method|com.teamiurg.techexpansion.Initialization|preInit|()V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1403|1408|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
+      @|com/teamiurg/techexpansion/TechExpansion.java|1409|1416|preInit|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1417|1418|e|param|com.teamiurg.techexpansion.TechExpansion|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|e|0
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1504|1505|e|param|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
-      @|com/teamiurg/techexpansion/TechExpansion.java|1450|1462|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com/teamiurg/techexpansion/TechExpansion.java|1476|1480|init|method|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1481|1503|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|com/teamiurg/techexpansion/TechExpansion.java|1511|1525|Initialization|class|com.teamiurg.techexpansion.Initialization
-      @|com/teamiurg/techexpansion/TechExpansion.java|1526|1530|init|method|com.teamiurg.techexpansion.Initialization|init|()V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1536|1541|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
-      @|com/teamiurg/techexpansion/TechExpansion.java|1542|1546|init|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1547|1548|e|param|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com/teamiurg/techexpansion/TechExpansion.java|1485|1486|e|param|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
+      @|com/teamiurg/techexpansion/TechExpansion.java|1431|1443|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/teamiurg/techexpansion/TechExpansion.java|1457|1461|init|method|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1462|1484|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com/teamiurg/techexpansion/TechExpansion.java|1492|1506|Initialization|class|com.teamiurg.techexpansion.Initialization
+      @|com/teamiurg/techexpansion/TechExpansion.java|1507|1511|init|method|com.teamiurg.techexpansion.Initialization|init|()V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1517|1522|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
+      @|com/teamiurg/techexpansion/TechExpansion.java|1523|1527|init|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1528|1529|e|param|com.teamiurg.techexpansion.TechExpansion|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|e|0
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1620|1621|e|param|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
-      @|com/teamiurg/techexpansion/TechExpansion.java|1558|1570|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
-      @|com/teamiurg/techexpansion/TechExpansion.java|1584|1592|postInit|method|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1593|1619|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|com/teamiurg/techexpansion/TechExpansion.java|1627|1641|Initialization|class|com.teamiurg.techexpansion.Initialization
-      @|com/teamiurg/techexpansion/TechExpansion.java|1642|1650|postInit|method|com.teamiurg.techexpansion.Initialization|postInit|()V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1656|1661|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
-      @|com/teamiurg/techexpansion/TechExpansion.java|1662|1670|postInit|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|com/teamiurg/techexpansion/TechExpansion.java|1671|1672|e|param|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com/teamiurg/techexpansion/TechExpansion.java|1601|1602|e|param|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
+      @|com/teamiurg/techexpansion/TechExpansion.java|1539|1551|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com/teamiurg/techexpansion/TechExpansion.java|1565|1573|postInit|method|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1574|1600|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com/teamiurg/techexpansion/TechExpansion.java|1608|1622|Initialization|class|com.teamiurg.techexpansion.Initialization
+      @|com/teamiurg/techexpansion/TechExpansion.java|1623|1631|postInit|method|com.teamiurg.techexpansion.Initialization|postInit|()V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1637|1642|proxy|field|com.teamiurg.techexpansion.TechExpansion|proxy
+      @|com/teamiurg/techexpansion/TechExpansion.java|1643|1651|postInit|method|com.teamiurg.techexpansion.engine.proxy.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com/teamiurg/techexpansion/TechExpansion.java|1652|1653|e|param|com.teamiurg.techexpansion.TechExpansion|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|e|0
    Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-   @|com/teamiurg/techexpansion/TechExpansion.java|1695|1707|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com/teamiurg/techexpansion/TechExpansion.java|1695|1707|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-   @|com/teamiurg/techexpansion/TechExpansion.java|1708|1725|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion|
-   @|com/teamiurg/techexpansion/TechExpansion.java|1732|1744|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com/teamiurg/techexpansion/TechExpansion.java|1676|1688|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com/teamiurg/techexpansion/TechExpansion.java|1676|1688|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com/teamiurg/techexpansion/TechExpansion.java|1689|1706|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion|
+   @|com/teamiurg/techexpansion/TechExpansion.java|1713|1725|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
    Anon Class Start: com.teamiurg.techexpansion.TechExpansion$1
       Method Start: getTabIconItem()Lnet/minecraft/item/Item;
-         @|com/teamiurg/techexpansion/TechExpansion.java|1771|1779|Override|class|java.lang.Override
-         @|com/teamiurg/techexpansion/TechExpansion.java|1789|1793|Item|class|net.minecraft.item.Item
-         @|com/teamiurg/techexpansion/TechExpansion.java|1794|1808|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/Item;
-         @|com/teamiurg/techexpansion/TechExpansion.java|1823|1831|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-         @|com/teamiurg/techexpansion/TechExpansion.java|1832|1849|item_copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|item_copper_block
+         @|com/teamiurg/techexpansion/TechExpansion.java|1752|1760|Override|class|java.lang.Override
+         @|com/teamiurg/techexpansion/TechExpansion.java|1770|1774|Item|class|net.minecraft.item.Item
+         @|com/teamiurg/techexpansion/TechExpansion.java|1775|1789|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/Item;
+         @|com/teamiurg/techexpansion/TechExpansion.java|1804|1812|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+         @|com/teamiurg/techexpansion/TechExpansion.java|1813|1830|item_copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|item_copper_block
       Method End: getTabIconItem()Lnet/minecraft/item/Item;
    Anon Class End: com.teamiurg.techexpansion.TechExpansion$1
 Class End  : com.teamiurg.techexpansion.TechExpansion
 endProcessing "com/teamiurg/techexpansion/TechExpansion.java"
 
 startProcessing "com/teamiurg/techexpansion/block/TEBlock.java" md5: 19fa1bdbf1995461182319046c9c8bbf
+Cache Hit!
 @|com/teamiurg/techexpansion/block/TEBlock.java|8|40|com.teamiurg.techexpansion.block|package|com.teamiurg.techexpansion.block|(file)
 Class Start: com.teamiurg.techexpansion.block.TEBlock
    @|com/teamiurg/techexpansion/block/TEBlock.java|222|229|TEBlock|class|com.teamiurg.techexpansion.block.TEBlock
@@ -182,6 +181,7 @@ Class End  : com.teamiurg.techexpansion.block.TEBlock
 endProcessing "com/teamiurg/techexpansion/block/TEBlock.java"
 
 startProcessing "com/teamiurg/techexpansion/block/TEBlocks.java" md5: 6729c0f629b15315ebf6cfeb40c93899
+Cache Hit!
 @|com/teamiurg/techexpansion/block/TEBlocks.java|8|40|com.teamiurg.techexpansion.block|package|com.teamiurg.techexpansion.block|(file)
 Class Start: com.teamiurg.techexpansion.block.TEBlocks
    @|com/teamiurg/techexpansion/block/TEBlocks.java|385|393|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
@@ -363,6 +363,7 @@ Class End  : com.teamiurg.techexpansion.block.TEBlocks
 endProcessing "com/teamiurg/techexpansion/block/TEBlocks.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java" md5: e21b2e9a2dc3b76396c5f529b9d61319
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java|8|50|com.teamiurg.techexpansion.engine.handlers|package|com.teamiurg.techexpansion.engine.handlers|(file)
 Class Start: com.teamiurg.techexpansion.engine.handlers.AchievementHandler
    @|com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java|412|430|AchievementHandler|class|com.teamiurg.techexpansion.engine.handlers.AchievementHandler
@@ -455,6 +456,7 @@ Class End  : com.teamiurg.techexpansion.engine.handlers.AchievementHandler
 endProcessing "com/teamiurg/techexpansion/engine/handlers/AchievementHandler.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java" md5: f3c512145725c6bdfb92e3e943356c19
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java|8|50|com.teamiurg.techexpansion.engine.handlers|package|com.teamiurg.techexpansion.engine.handlers|(file)
 Class Start: com.teamiurg.techexpansion.engine.handlers.OreDictionaryHandler
    @|com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java|215|235|OreDictionaryHandler|class|com.teamiurg.techexpansion.engine.handlers.OreDictionaryHandler
@@ -500,86 +502,217 @@ Class Start: com.teamiurg.techexpansion.engine.handlers.OreDictionaryHandler
 Class End  : com.teamiurg.techexpansion.engine.handlers.OreDictionaryHandler
 endProcessing "com/teamiurg/techexpansion/engine/handlers/OreDictionaryHandler.java"
 
-startProcessing "com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java" md5: 294cc675b971896bfeb1b2d00e5dc8b2
+startProcessing "com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java" md5: efcd83c5dfc685675e55fa96411722c7
 @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|8|50|com.teamiurg.techexpansion.engine.handlers|package|com.teamiurg.techexpansion.engine.handlers|(file)
 Class Start: com.teamiurg.techexpansion.engine.handlers.RecipeHandler
-   @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|352|365|RecipeHandler|class|com.teamiurg.techexpansion.engine.handlers.RecipeHandler
+   @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|350|363|RecipeHandler|class|com.teamiurg.techexpansion.engine.handlers.RecipeHandler
    Method Start: registerRecipes()V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|389|404|registerRecipes|method|com.teamiurg.techexpansion.engine.handlers.RecipeHandler|registerRecipes|()V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|432|444|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|445|456|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|457|465|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|466|476|copper_ore|field|com.teamiurg.techexpansion.block.TEBlocks|copper_ore
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|482|491|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|492|499|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|500|512|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|524|536|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|537|548|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|549|557|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|558|570|aluminum_ore|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_ore
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|576|585|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|586|593|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|594|608|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|620|632|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|633|644|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|645|653|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|654|661|tin_ore|field|com.teamiurg.techexpansion.block.TEBlocks|tin_ore
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|667|676|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|677|684|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|685|694|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|729|741|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|742|751|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|756|765|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|766|774|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|775|787|copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|copper_block
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|798|804|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|835|842|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|843|855|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|862|874|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|875|884|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|889|898|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|899|907|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|908|922|aluminum_block|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_block
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|933|939|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|970|977|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|978|992|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|999|1011|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1012|1021|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1026|1035|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1036|1044|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1045|1054|tin_block|field|com.teamiurg.techexpansion.block.TEBlocks|tin_block
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1065|1071|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1102|1109|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1110|1119|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1149|1161|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1162|1180|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1185|1194|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1195|1202|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1203|1215|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1225|1231|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1235|1243|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1244|1256|copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|copper_block
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1262|1274|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1275|1293|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1298|1307|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1308|1315|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1316|1330|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1340|1346|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1350|1358|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1359|1373|aluminum_block|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_block
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1379|1391|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1392|1410|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1415|1424|ItemStack|class|net.minecraft.item.ItemStack
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1425|1432|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1433|1442|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1452|1458|Object|class|java.lang.Object
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1462|1470|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
-      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1471|1480|tin_block|field|com.teamiurg.techexpansion.block.TEBlocks|tin_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|387|402|registerRecipes|method|com.teamiurg.techexpansion.engine.handlers.RecipeHandler|registerRecipes|()V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|430|442|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|443|454|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|455|463|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|464|474|copper_ore|field|com.teamiurg.techexpansion.block.TEBlocks|copper_ore
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|480|489|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|490|497|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|498|510|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|522|534|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|535|546|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|547|555|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|556|568|aluminum_ore|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_ore
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|574|583|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|584|591|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|592|606|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|618|630|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|631|642|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|643|651|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|652|659|tin_ore|field|com.teamiurg.techexpansion.block.TEBlocks|tin_ore
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|665|674|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|675|682|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|683|692|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|727|739|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|740|749|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|754|763|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|764|772|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|773|785|copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|copper_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|796|802|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|833|840|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|841|853|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|860|872|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|873|882|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|887|896|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|897|905|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|906|920|aluminum_block|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|931|937|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|968|975|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|976|990|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|997|1009|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1010|1019|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1024|1033|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1034|1042|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1043|1052|tin_block|field|com.teamiurg.techexpansion.block.TEBlocks|tin_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1063|1069|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1100|1107|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1108|1117|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1147|1159|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1160|1178|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1183|1192|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1193|1200|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1201|1213|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1223|1229|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1233|1241|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1242|1254|copper_block|field|com.teamiurg.techexpansion.block.TEBlocks|copper_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1260|1272|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1273|1291|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1296|1305|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1306|1313|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1314|1328|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1338|1344|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1348|1356|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1357|1371|aluminum_block|field|com.teamiurg.techexpansion.block.TEBlocks|aluminum_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1377|1389|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1390|1408|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1413|1422|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1423|1430|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1431|1440|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1450|1456|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1460|1468|TEBlocks|class|com.teamiurg.techexpansion.block.TEBlocks
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1469|1478|tin_block|field|com.teamiurg.techexpansion.block.TEBlocks|tin_block
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1513|1525|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1526|1535|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1540|1549|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1550|1557|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1558|1570|aluminum_axe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_axe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1577|1583|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1611|1618|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1619|1633|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1640|1645|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1646|1651|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1657|1669|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1670|1679|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1684|1693|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1694|1701|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1702|1718|aluminum_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_pickaxe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1725|1731|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1761|1768|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1769|1783|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1790|1795|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1796|1801|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1807|1819|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1820|1829|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1834|1843|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1844|1851|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1852|1867|aluminum_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_shovel
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1874|1880|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1910|1917|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1918|1932|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1939|1944|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1945|1950|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1956|1968|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1969|1978|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1983|1992|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|1993|2000|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2001|2015|aluminum_sword|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_sword
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2022|2028|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2058|2065|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2066|2080|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2087|2092|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2093|2098|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2131|2143|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2144|2153|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2158|2167|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2168|2175|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2176|2186|copper_axe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_axe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2193|2199|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2229|2236|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2237|2249|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2256|2261|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2262|2267|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2273|2285|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2286|2295|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2300|2309|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2310|2317|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2318|2328|copper_hoe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_hoe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2335|2341|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2371|2378|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2379|2391|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2398|2403|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2404|2409|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2415|2427|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2428|2437|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2442|2451|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2452|2459|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2460|2474|copper_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_pickaxe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2481|2487|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2517|2524|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2525|2537|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2544|2549|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2550|2555|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2561|2573|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2574|2583|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2588|2597|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2598|2605|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2606|2619|copper_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|copper_shovel
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2626|2632|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2662|2669|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2670|2682|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2689|2694|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2695|2700|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2706|2718|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2719|2728|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2733|2742|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2743|2750|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2751|2763|copper_sword|field|com.teamiurg.techexpansion.item.tools.TETools|copper_sword
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2770|2776|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2806|2813|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2814|2826|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2833|2838|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2839|2844|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2871|2883|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2884|2893|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2898|2907|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2908|2915|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2916|2923|tin_axe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_axe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2930|2936|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2966|2973|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2974|2983|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2990|2995|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|2996|3001|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3007|3019|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3020|3029|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3034|3043|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3044|3051|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3052|3063|tin_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_pickaxe
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3070|3076|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3106|3113|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3114|3123|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3130|3135|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3136|3141|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3147|3159|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3160|3169|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3174|3183|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3184|3191|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3192|3202|tin_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|tin_shovel
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3209|3215|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3245|3252|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3253|3262|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3269|3274|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3275|3280|STICK|field|net.minecraft.init.Items|STICK
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3286|3298|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3299|3308|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3313|3322|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3323|3330|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3331|3340|tin_sword|field|com.teamiurg.techexpansion.item.tools.TETools|tin_sword
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3347|3353|Object|class|java.lang.Object
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3383|3390|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3391|3400|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3407|3412|Items|class|net.minecraft.init.Items
+      @|com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java|3413|3418|STICK|field|net.minecraft.init.Items|STICK
    Method End: registerRecipes()V
 Class End  : com.teamiurg.techexpansion.engine.handlers.RecipeHandler
 endProcessing "com/teamiurg/techexpansion/engine/handlers/RecipeHandler.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/proxy/ClientProxy.java" md5: fae133b918f7cea9be821ee4d5f261ef
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/proxy/ClientProxy.java|8|47|com.teamiurg.techexpansion.engine.proxy|package|com.teamiurg.techexpansion.engine.proxy|(file)
 Class Start: com.teamiurg.techexpansion.engine.proxy.ClientProxy
    @|com/teamiurg/techexpansion/engine/proxy/ClientProxy.java|371|382|ClientProxy|class|com.teamiurg.techexpansion.engine.proxy.ClientProxy
@@ -607,6 +740,7 @@ Class End  : com.teamiurg.techexpansion.engine.proxy.ClientProxy
 endProcessing "com/teamiurg/techexpansion/engine/proxy/ClientProxy.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/proxy/CommonProxy.java" md5: c8da5bb2aa0c4b502cc2d86aa99f06e3
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/proxy/CommonProxy.java|8|47|com.teamiurg.techexpansion.engine.proxy|package|com.teamiurg.techexpansion.engine.proxy|(file)
 Class Start: com.teamiurg.techexpansion.engine.proxy.CommonProxy
    @|com/teamiurg/techexpansion/engine/proxy/CommonProxy.java|272|283|CommonProxy|class|com.teamiurg.techexpansion.engine.proxy.CommonProxy
@@ -629,6 +763,7 @@ Class End  : com.teamiurg.techexpansion.engine.proxy.CommonProxy
 endProcessing "com/teamiurg/techexpansion/engine/proxy/CommonProxy.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/registry/RegistryHandler.java" md5: ea568c3a282cdde4ba2282c8ce6a99eb
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/registry/RegistryHandler.java|8|50|com.teamiurg.techexpansion.engine.registry|package|com.teamiurg.techexpansion.engine.registry|(file)
 Class Start: com.teamiurg.techexpansion.engine.registry.RegistryHandler
    @|com/teamiurg/techexpansion/engine/registry/RegistryHandler.java|159|174|RegistryHandler|class|com.teamiurg.techexpansion.engine.registry.RegistryHandler
@@ -646,6 +781,7 @@ Class End  : com.teamiurg.techexpansion.engine.registry.RegistryHandler
 endProcessing "com/teamiurg/techexpansion/engine/registry/RegistryHandler.java"
 
 startProcessing "com/teamiurg/techexpansion/engine/render/RenderHandler.java" md5: 2ad3b56f05437e8b81f243d94678e110
+Cache Hit!
 @|com/teamiurg/techexpansion/engine/render/RenderHandler.java|8|48|com.teamiurg.techexpansion.engine.render|package|com.teamiurg.techexpansion.engine.render|(file)
 Class Start: com.teamiurg.techexpansion.engine.render.RenderHandler
    @|com/teamiurg/techexpansion/engine/render/RenderHandler.java|444|457|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
@@ -713,6 +849,7 @@ Class End  : com.teamiurg.techexpansion.engine.render.RenderHandler
 endProcessing "com/teamiurg/techexpansion/engine/render/RenderHandler.java"
 
 startProcessing "com/teamiurg/techexpansion/item/TEItem.java" md5: 7a0d6aa768398259fd585ccd3b9fbaf0
+Cache Hit!
 @|com/teamiurg/techexpansion/item/TEItem.java|8|39|com.teamiurg.techexpansion.item|package|com.teamiurg.techexpansion.item|(file)
 Class Start: com.teamiurg.techexpansion.item.TEItem
    @|com/teamiurg/techexpansion/item/TEItem.java|135|141|TEItem|class|com.teamiurg.techexpansion.item.TEItem
@@ -738,81 +875,135 @@ Class Start: com.teamiurg.techexpansion.item.TEItem
 Class End  : com.teamiurg.techexpansion.item.TEItem
 endProcessing "com/teamiurg/techexpansion/item/TEItem.java"
 
-startProcessing "com/teamiurg/techexpansion/item/TEItems.java" md5: ef03257379c76cf9842e358758bd6fae
+startProcessing "com/teamiurg/techexpansion/item/TEItems.java" md5: aeabcf8ee4733fc86ef78fbec69379d7
 @|com/teamiurg/techexpansion/item/TEItems.java|8|39|com.teamiurg.techexpansion.item|package|com.teamiurg.techexpansion.item|(file)
 Class Start: com.teamiurg.techexpansion.item.TEItems
-   @|com/teamiurg/techexpansion/item/TEItems.java|317|324|TEItems|class|com.teamiurg.techexpansion.item.TEItems
-   @|com/teamiurg/techexpansion/item/TEItems.java|358|362|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|358|362|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|363|375|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot|
-   @|com/teamiurg/techexpansion/item/TEItems.java|382|388|TEItem|class|com.teamiurg.techexpansion.item.TEItem
-   @|com/teamiurg/techexpansion/item/TEItems.java|421|434|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
-   @|com/teamiurg/techexpansion/item/TEItems.java|435|452|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
-   @|com/teamiurg/techexpansion/item/TEItems.java|474|478|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|474|478|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|479|493|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot|
-   @|com/teamiurg/techexpansion/item/TEItems.java|500|506|TEItem|class|com.teamiurg.techexpansion.item.TEItem
-   @|com/teamiurg/techexpansion/item/TEItems.java|543|556|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
-   @|com/teamiurg/techexpansion/item/TEItems.java|557|574|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
-   @|com/teamiurg/techexpansion/item/TEItems.java|596|600|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|596|600|Item|class|net.minecraft.item.Item
-   @|com/teamiurg/techexpansion/item/TEItems.java|601|610|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot|
-   @|com/teamiurg/techexpansion/item/TEItems.java|617|623|TEItem|class|com.teamiurg.techexpansion.item.TEItem
-   @|com/teamiurg/techexpansion/item/TEItems.java|650|663|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
-   @|com/teamiurg/techexpansion/item/TEItems.java|664|681|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|315|322|TEItems|class|com.teamiurg.techexpansion.item.TEItems
+   @|com/teamiurg/techexpansion/item/TEItems.java|356|360|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|356|360|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|361|373|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot|
+   @|com/teamiurg/techexpansion/item/TEItems.java|380|386|TEItem|class|com.teamiurg.techexpansion.item.TEItem
+   @|com/teamiurg/techexpansion/item/TEItems.java|419|432|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|433|450|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|472|476|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|472|476|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|477|491|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot|
+   @|com/teamiurg/techexpansion/item/TEItems.java|498|504|TEItem|class|com.teamiurg.techexpansion.item.TEItem
+   @|com/teamiurg/techexpansion/item/TEItems.java|541|554|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|555|572|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|594|598|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|594|598|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/TEItems.java|599|608|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot|
+   @|com/teamiurg/techexpansion/item/TEItems.java|615|621|TEItem|class|com.teamiurg.techexpansion.item.TEItem
+   @|com/teamiurg/techexpansion/item/TEItems.java|648|661|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/TEItems.java|662|679|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
    Method Start: registerItems()V
-      @|com/teamiurg/techexpansion/item/TEItems.java|710|723|registerItems|method|com.teamiurg.techexpansion.item.TEItems|registerItems|()V
-      @|com/teamiurg/techexpansion/item/TEItems.java|745|757|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/item/TEItems.java|758|766|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|com/teamiurg/techexpansion/item/TEItems.java|767|779|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
-      @|com/teamiurg/techexpansion/item/TEItems.java|784|796|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/item/TEItems.java|797|805|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|com/teamiurg/techexpansion/item/TEItems.java|806|820|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
-      @|com/teamiurg/techexpansion/item/TEItems.java|825|837|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|com/teamiurg/techexpansion/item/TEItems.java|838|846|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|com/teamiurg/techexpansion/item/TEItems.java|847|856|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|708|721|registerItems|method|com.teamiurg.techexpansion.item.TEItems|registerItems|()V
+      @|com/teamiurg/techexpansion/item/TEItems.java|743|755|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/TEItems.java|756|764|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/TEItems.java|765|777|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|782|794|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/TEItems.java|795|803|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/TEItems.java|804|818|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|823|835|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/TEItems.java|836|844|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/TEItems.java|845|854|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|859|866|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/item/TEItems.java|867|880|registerItems|method|com.teamiurg.techexpansion.item.tools.TETools|registerItems|()V
    Method End: registerItems()V
    Method Start: registerRenders()V
-      @|com/teamiurg/techexpansion/item/TEItems.java|912|927|registerRenders|method|com.teamiurg.techexpansion.item.TEItems|registerRenders|()V
-      @|com/teamiurg/techexpansion/item/TEItems.java|949|962|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
-      @|com/teamiurg/techexpansion/item/TEItems.java|963|977|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
-      @|com/teamiurg/techexpansion/item/TEItems.java|978|990|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
-      @|com/teamiurg/techexpansion/item/TEItems.java|995|1008|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
-      @|com/teamiurg/techexpansion/item/TEItems.java|1009|1023|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
-      @|com/teamiurg/techexpansion/item/TEItems.java|1024|1038|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
-      @|com/teamiurg/techexpansion/item/TEItems.java|1043|1056|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
-      @|com/teamiurg/techexpansion/item/TEItems.java|1057|1071|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
-      @|com/teamiurg/techexpansion/item/TEItems.java|1072|1081|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|908|923|registerRenders|method|com.teamiurg.techexpansion.item.TEItems|registerRenders|()V
+      @|com/teamiurg/techexpansion/item/TEItems.java|945|958|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/TEItems.java|959|973|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/TEItems.java|974|986|copper_ingot|field|com.teamiurg.techexpansion.item.TEItems|copper_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|991|1004|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/TEItems.java|1005|1019|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/TEItems.java|1020|1034|aluminum_ingot|field|com.teamiurg.techexpansion.item.TEItems|aluminum_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|1039|1052|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/TEItems.java|1053|1067|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/TEItems.java|1068|1077|tin_ingot|field|com.teamiurg.techexpansion.item.TEItems|tin_ingot
+      @|com/teamiurg/techexpansion/item/TEItems.java|1082|1089|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+      @|com/teamiurg/techexpansion/item/TEItems.java|1090|1105|registerRenders|method|com.teamiurg.techexpansion.item.tools.TETools|registerRenders|()V
    Method End: registerRenders()V
 Class End  : com.teamiurg.techexpansion.item.TEItems
 endProcessing "com/teamiurg/techexpansion/item/TEItems.java"
 
-startProcessing "com/teamiurg/techexpansion/item/tools/TEAxe.java" md5: 7c0c7b80dd7d3bda679ffd949a7e8bff
+startProcessing "com/teamiurg/techexpansion/item/tools/TEAxe.java" md5: b04506324bab433c1d080fe7a7cfd28c
 @|com/teamiurg/techexpansion/item/tools/TEAxe.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
 Class Start: com.teamiurg.techexpansion.item.tools.TEAxe
-   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|192|197|TEAxe|class|com.teamiurg.techexpansion.item.tools.TEAxe
-   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|206|213|ItemAxe|class|net.minecraft.item.ItemAxe
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|395|400|TEAxe|class|com.teamiurg.techexpansion.item.tools.TEAxe
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|409|417|ItemTool|class|net.minecraft.item.ItemTool
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|448|453|Block|class|net.minecraft.block.Block
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|444|447|Set|class|java.util.Set
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|444|447|Set|class|java.util.Set
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|448|453|Block|class|net.minecraft.block.Block
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|455|467|EFFECTIVE_ON|field|com.teamiurg.techexpansion.item.tools.TEAxe|EFFECTIVE_ON|
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|470|474|Sets|class|com.google.common.collect.Sets
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|475|485|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|490|495|Block|class|net.minecraft.block.Block
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|500|506|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|507|513|PLANKS|field|net.minecraft.init.Blocks|PLANKS
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|515|521|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|522|531|BOOKSHELF|field|net.minecraft.init.Blocks|BOOKSHELF
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|536|542|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|543|546|LOG|field|net.minecraft.init.Blocks|LOG
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|548|554|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|555|559|LOG2|field|net.minecraft.init.Blocks|LOG2
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|561|567|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|568|573|CHEST|field|net.minecraft.init.Blocks|CHEST
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|575|581|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|582|589|PUMPKIN|field|net.minecraft.init.Blocks|PUMPKIN
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|591|597|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|598|609|LIT_PUMPKIN|field|net.minecraft.init.Blocks|LIT_PUMPKIN
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|611|617|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|618|629|MELON_BLOCK|field|net.minecraft.init.Blocks|MELON_BLOCK
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|634|640|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|641|647|LADDER|field|net.minecraft.init.Blocks|LADDER
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|649|655|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|656|669|WOODEN_BUTTON|field|net.minecraft.init.Blocks|WOODEN_BUTTON
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|671|677|Blocks|class|net.minecraft.init.Blocks
+   @|com/teamiurg/techexpansion/item/tools/TEAxe.java|678|699|WOODEN_PRESSURE_PLATE|field|net.minecraft.init.Blocks|WOODEN_PRESSURE_PLATE
    Method Start: TEAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|243|246|mat|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|mat|0
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|255|263|material|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|material|1
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|272|279|regName|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|regName|2
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|224|229|TEAxe|method|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|230|242|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|248|254|String|class|java.lang.String
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|265|271|String|class|java.lang.String
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|291|294|mat|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|mat|0
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|304|322|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|323|331|material|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|material|1
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|350|364|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|365|378|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|379|396|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|406|421|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
-      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|422|429|regName|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|regName|2
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|733|736|mat|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|mat|0
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|745|753|material|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|material|1
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|762|769|regName|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|regName|2
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|714|719|TEAxe|method|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|720|732|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|738|744|String|class|java.lang.String
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|755|761|String|class|java.lang.String
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|781|784|mat|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|mat|0
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|786|798|EFFECTIVE_ON|field|com.teamiurg.techexpansion.item.tools.TEAxe|EFFECTIVE_ON
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|808|826|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|827|835|material|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|material|1
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|854|868|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|869|882|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|883|900|tab_techExpansion|field|com.teamiurg.techexpansion.TechExpansion|tab_techExpansion
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|910|925|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|926|933|regName|param|com.teamiurg.techexpansion.item.tools.TEAxe|TEAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V|regName|2
    Method End: TEAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;Ljava/lang/String;)V
+   Method Start: getToolClasses(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|997|1002|stack|param|com.teamiurg.techexpansion.item.tools.TEAxe|getToolClasses|(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;|stack|0
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|943|951|Override|class|java.lang.Override
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|960|963|Set|class|java.util.Set
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|964|970|String|class|java.lang.String
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|972|986|getToolClasses|method|net.minecraft.item.Item|getToolClasses|(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|987|996|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1015|1019|Sets|class|com.google.common.collect.Sets
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1020|1030|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
+   Method End: getToolClasses(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+   Method Start: getHarvestLevel(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)I
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1091|1096|stack|param|com.teamiurg.techexpansion.item.tools.TEAxe|getHarvestLevel|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)I|stack|0
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1105|1125|p_getHarvestLevel_2_|param|com.teamiurg.techexpansion.item.tools.TEAxe|getHarvestLevel|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)I|p_getHarvestLevel_2_|1
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1044|1052|Override|class|java.lang.Override
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1065|1080|getHarvestLevel|method|net.minecraft.item.Item|getHarvestLevel|(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)I
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1081|1090|ItemStack|class|net.minecraft.item.ItemStack
+      @|com/teamiurg/techexpansion/item/tools/TEAxe.java|1098|1104|String|class|java.lang.String
+   Method End: getHarvestLevel(Lnet/minecraft/item/ItemStack;Ljava/lang/String;)I
 Class End  : com.teamiurg.techexpansion.item.tools.TEAxe
 endProcessing "com/teamiurg/techexpansion/item/tools/TEAxe.java"
 
 startProcessing "com/teamiurg/techexpansion/item/tools/TEHoe.java" md5: 589575b920a4e77a6fd261645e9fb404
+Cache Hit!
 @|com/teamiurg/techexpansion/item/tools/TEHoe.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
 Class Start: com.teamiurg.techexpansion.item.tools.TEHoe
    @|com/teamiurg/techexpansion/item/tools/TEHoe.java|192|197|TEHoe|class|com.teamiurg.techexpansion.item.tools.TEHoe
@@ -838,6 +1029,7 @@ Class End  : com.teamiurg.techexpansion.item.tools.TEHoe
 endProcessing "com/teamiurg/techexpansion/item/tools/TEHoe.java"
 
 startProcessing "com/teamiurg/techexpansion/item/tools/TEPickaxe.java" md5: ce2951e7ef1b0eb25813f6e411edac8f
+Cache Hit!
 @|com/teamiurg/techexpansion/item/tools/TEPickaxe.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
 Class Start: com.teamiurg.techexpansion.item.tools.TEPickaxe
    @|com/teamiurg/techexpansion/item/tools/TEPickaxe.java|196|205|TEPickaxe|class|com.teamiurg.techexpansion.item.tools.TEPickaxe
@@ -863,6 +1055,7 @@ Class End  : com.teamiurg.techexpansion.item.tools.TEPickaxe
 endProcessing "com/teamiurg/techexpansion/item/tools/TEPickaxe.java"
 
 startProcessing "com/teamiurg/techexpansion/item/tools/TEShovel.java" md5: 6510eaf3621fc6752954ba2bb5cb9264
+Cache Hit!
 @|com/teamiurg/techexpansion/item/tools/TEShovel.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
 Class Start: com.teamiurg.techexpansion.item.tools.TEShovel
    @|com/teamiurg/techexpansion/item/tools/TEShovel.java|194|202|TEShovel|class|com.teamiurg.techexpansion.item.tools.TEShovel
@@ -888,6 +1081,7 @@ Class End  : com.teamiurg.techexpansion.item.tools.TEShovel
 endProcessing "com/teamiurg/techexpansion/item/tools/TEShovel.java"
 
 startProcessing "com/teamiurg/techexpansion/item/tools/TESword.java" md5: 3f53ef43c578ef7700c8daf09a51f3b5
+Cache Hit!
 @|com/teamiurg/techexpansion/item/tools/TESword.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
 Class Start: com.teamiurg.techexpansion.item.tools.TESword
    @|com/teamiurg/techexpansion/item/tools/TESword.java|194|201|TESword|class|com.teamiurg.techexpansion.item.tools.TESword
@@ -912,10 +1106,177 @@ Class Start: com.teamiurg.techexpansion.item.tools.TESword
 Class End  : com.teamiurg.techexpansion.item.tools.TESword
 endProcessing "com/teamiurg/techexpansion/item/tools/TESword.java"
 
-startProcessing "com/teamiurg/techexpansion/item/tools/TETools.java" md5: aa6c59ccbf180b4457c11ddfc1b263bf
+startProcessing "com/teamiurg/techexpansion/item/tools/TETools.java" md5: ff9ea5f1e6df7f8d8d87d8d5a1ee72e1
+@|com/teamiurg/techexpansion/item/tools/TETools.java|8|45|com.teamiurg.techexpansion.item.tools|package|com.teamiurg.techexpansion.item.tools|(file)
+Class Start: com.teamiurg.techexpansion.item.tools.TETools
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|267|274|TETools|class|com.teamiurg.techexpansion.item.tools.TETools
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|293|297|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|293|297|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|298|312|copper_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_pickaxe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|319|328|TEPickaxe|class|com.teamiurg.techexpansion.item.tools.TEPickaxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|329|342|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|343|346|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|392|396|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|392|396|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|397|407|copper_hoe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_hoe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|414|419|TEHoe|class|com.teamiurg.techexpansion.item.tools.TEHoe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|420|433|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|434|437|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|479|483|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|479|483|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|484|494|copper_axe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_axe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|501|506|TEAxe|class|com.teamiurg.techexpansion.item.tools.TEAxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|507|520|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|521|524|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|566|570|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|566|570|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|571|584|copper_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|copper_shovel|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|591|599|TEShovel|class|com.teamiurg.techexpansion.item.tools.TEShovel
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|600|613|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|614|617|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|662|666|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|662|666|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|667|679|copper_sword|field|com.teamiurg.techexpansion.item.tools.TETools|copper_sword|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|686|693|TESword|class|com.teamiurg.techexpansion.item.tools.TESword
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|694|707|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|708|711|TCo|field|com.teamiurg.techexpansion.TechExpansion|TCo
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|755|759|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|755|759|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|760|771|tin_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_pickaxe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|778|787|TEPickaxe|class|com.teamiurg.techexpansion.item.tools.TEPickaxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|788|801|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|802|806|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|846|850|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|846|850|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|851|858|tin_axe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_axe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|865|870|TEAxe|class|com.teamiurg.techexpansion.item.tools.TEAxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|871|884|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|885|889|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|925|929|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|925|929|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|930|940|tin_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|tin_shovel|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|947|955|TEShovel|class|com.teamiurg.techexpansion.item.tools.TEShovel
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|956|969|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|970|974|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1013|1017|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1013|1017|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1018|1027|tin_sword|field|com.teamiurg.techexpansion.item.tools.TETools|tin_sword|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1034|1041|TESword|class|com.teamiurg.techexpansion.item.tools.TESword
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1042|1055|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1056|1060|TTin|field|com.teamiurg.techexpansion.TechExpansion|TTin
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1098|1102|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1098|1102|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1103|1119|aluminum_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_pickaxe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1126|1135|TEPickaxe|class|com.teamiurg.techexpansion.item.tools.TEPickaxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1136|1149|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1150|1153|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1203|1207|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1203|1207|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1208|1220|aluminum_axe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_axe|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1227|1232|TEAxe|class|com.teamiurg.techexpansion.item.tools.TEAxe
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1233|1246|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1247|1250|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1296|1300|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1296|1300|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1301|1316|aluminum_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_shovel|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1323|1331|TEShovel|class|com.teamiurg.techexpansion.item.tools.TEShovel
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1332|1345|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1346|1349|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1398|1402|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1398|1402|Item|class|net.minecraft.item.Item
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1403|1417|aluminum_sword|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_sword|
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1424|1431|TESword|class|com.teamiurg.techexpansion.item.tools.TESword
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1432|1445|TechExpansion|class|com.teamiurg.techexpansion.TechExpansion
+   @|com/teamiurg/techexpansion/item/tools/TETools.java|1446|1449|TAl|field|com.teamiurg.techexpansion.TechExpansion|TAl
+   Method Start: registerItems()V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1503|1516|registerItems|method|com.teamiurg.techexpansion.item.tools.TETools|registerItems|()V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1523|1535|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1536|1544|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1545|1559|copper_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1564|1576|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1577|1585|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1586|1596|copper_hoe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_hoe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1601|1613|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1614|1622|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1623|1633|copper_axe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1638|1650|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1651|1659|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1660|1673|copper_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|copper_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1678|1690|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1691|1699|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1700|1712|copper_sword|field|com.teamiurg.techexpansion.item.tools.TETools|copper_sword
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1717|1729|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1730|1738|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1739|1750|tin_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1755|1767|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1768|1776|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1777|1784|tin_axe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1789|1801|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1802|1810|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1811|1821|tin_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|tin_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1826|1838|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1839|1847|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1848|1857|tin_sword|field|com.teamiurg.techexpansion.item.tools.TETools|tin_sword
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1862|1874|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1875|1883|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1884|1900|aluminum_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1905|1917|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1918|1926|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1927|1939|aluminum_axe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1944|1956|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1957|1965|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1966|1981|aluminum_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1986|1998|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|1999|2007|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2008|2022|aluminum_sword|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_sword
+   Method End: registerItems()V
+   Method Start: registerRenders()V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2049|2064|registerRenders|method|com.teamiurg.techexpansion.item.tools.TETools|registerRenders|()V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2071|2084|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2085|2099|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2100|2114|copper_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2119|2132|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2133|2147|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2148|2158|copper_hoe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_hoe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2163|2176|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2177|2191|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2192|2202|copper_axe|field|com.teamiurg.techexpansion.item.tools.TETools|copper_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2207|2220|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2221|2235|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2236|2249|copper_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|copper_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2254|2267|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2268|2282|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2283|2295|copper_sword|field|com.teamiurg.techexpansion.item.tools.TETools|copper_sword
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2300|2313|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2314|2328|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2329|2340|tin_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2345|2358|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2359|2373|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2374|2381|tin_axe|field|com.teamiurg.techexpansion.item.tools.TETools|tin_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2386|2399|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2400|2414|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2415|2425|tin_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|tin_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2430|2443|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2444|2458|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2459|2468|tin_sword|field|com.teamiurg.techexpansion.item.tools.TETools|tin_sword
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2473|2486|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2487|2501|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2502|2518|aluminum_pickaxe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_pickaxe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2523|2536|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2537|2551|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2552|2564|aluminum_axe|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_axe
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2569|2582|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2583|2597|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2598|2613|aluminum_shovel|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_shovel
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2618|2631|RenderHandler|class|com.teamiurg.techexpansion.engine.render.RenderHandler
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2632|2646|registerRender|method|com.teamiurg.techexpansion.engine.render.RenderHandler|registerRender|(Lnet/minecraft/item/Item;)V
+      @|com/teamiurg/techexpansion/item/tools/TETools.java|2647|2661|aluminum_sword|field|com.teamiurg.techexpansion.item.tools.TETools|aluminum_sword
+   Method End: registerRenders()V
+Class End  : com.teamiurg.techexpansion.item.tools.TETools
 endProcessing "com/teamiurg/techexpansion/item/tools/TETools.java"
 
 startProcessing "com/teamiurg/techexpansion/utils/Reference.java" md5: 3add0fe769f46fb6e244295fe106dc29
+Cache Hit!
 @|com/teamiurg/techexpansion/utils/Reference.java|8|40|com.teamiurg.techexpansion.utils|package|com.teamiurg.techexpansion.utils|(file)
 Class Start: com.teamiurg.techexpansion.utils.Reference
    @|com/teamiurg/techexpansion/utils/Reference.java|56|65|Reference|class|com.teamiurg.techexpansion.utils.Reference
