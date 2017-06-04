@@ -3,11 +3,6 @@ script:
   - ./gradlew setupCIWorkspace
   - ./gradlew build
   - cp -R build ../
-  - git checkout deploy
-  - cp -R ../build ./
-  - git add --all
-  - git commit --all -m "Travis Test"
-  - git push --all
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -15,3 +10,9 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
