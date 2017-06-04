@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "0.1-1.10"
+version = "CI-1.10"
 group= "com.teamiurg.techexpansion"
 archivesBaseName = "TechExpansion"
 
