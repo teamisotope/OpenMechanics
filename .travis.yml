@@ -2,6 +2,7 @@ language: java
 script:
   - ./gradlew setupCIWorkspace
   - ./gradlew build
+  - cp -R build ../
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -14,4 +15,4 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
-    branch: gh-pages
+    branch: mc1.10
