@@ -2,6 +2,7 @@ package com.teamiurg.techexpansion.item;
 
 import com.teamiurg.techexpansion.TechExpansion;
 import com.teamiurg.techexpansion.engine.render.RenderHandler;
+import com.teamiurg.techexpansion.item.special.BatteryT1;
 import com.teamiurg.techexpansion.item.tools.TETools;
 
 import net.minecraft.item.Item;
@@ -13,12 +14,14 @@ public class TEItems {
 	public static Item copper_ingot = new TEItem("copper_ingot", "copper_ingot", TechExpansion.tab_techExpansion, 64);
 	public static Item aluminum_ingot = new TEItem("aluminum_ingot", "aluminum_ingot", TechExpansion.tab_techExpansion, 64);
 	public static Item tin_ingot = new TEItem("tin_ingot", "tin_ingot", TechExpansion.tab_techExpansion, 64);
+	public static Item battery_t1 = new BatteryT1(Integer.MAX_VALUE, 1, 1);
 	
 	public static void registerItems() {
 		/* ingots */
 		GameRegistry.register(copper_ingot);
 		GameRegistry.register(aluminum_ingot);
 		GameRegistry.register(tin_ingot);
+		GameRegistry.register(battery_t1);
 		TETools.registerItems();
 	}
 
@@ -27,6 +30,8 @@ public class TEItems {
 		RenderHandler.registerRender(copper_ingot);
 		RenderHandler.registerRender(aluminum_ingot);
 		RenderHandler.registerRender(tin_ingot);
+		RenderHandler.registerRender(battery_t1);
 		TETools.registerRenders();
 	}
+	
 }

@@ -25,7 +25,6 @@ public class TechExpansion {
 	public static ToolMaterial TTin = EnumHelper.addToolMaterial("TTi", 2, 250, 6.0f, 2.0f, 14);
 	public static ToolMaterial TAl = EnumHelper.addToolMaterial("TAl", 2, 255, 6.2f, 2.0f, 14);
 	
-	
 	@SidedProxy(clientSide=Reference.CLIENT_PROXY_LOCATION,serverSide=Reference.SERVER_PROXY_LOCATION)
 	public static CommonProxy proxy;
 	
