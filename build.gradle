@@ -11,7 +11,7 @@ apply plugin: 'scala'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "v2.0-1.10.2"
+version = "v2-CI-1.10.2"
 group = "com.teamisotope.techexpansion"
 archivesBaseName = "TechExpansion"
 
