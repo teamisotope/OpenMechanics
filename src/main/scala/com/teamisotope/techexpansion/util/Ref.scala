@@ -6,7 +6,7 @@ object Ref {
   final val VERSION = "v2.0-1.10.2"
   final val NAME = "TechExpansion"
   final val CLIENT_PROXY = "com.teamisotope.techexpansion.proxy.ClientProxy"
-  final val SERVER_PROXY = "com.teamisotope.techexpansion.proxy.CommonProxy"
+  final val SERVER_PROXY = "com.teamisotope.techexpansion.proxy.ServerProxy"
 
 
 

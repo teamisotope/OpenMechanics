@@ -12,6 +12,6 @@ object TEItems {
   }
 
   def renders(): Unit = {
-    RenderUtils.register(test_item)
+    RenderUtils.register(test_item, "tests")
   }
 }

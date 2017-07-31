@@ -1,4 +1,5 @@
 package com.teamisotope.techexpansion
+import com.teamisotope.techexpansion.block.TEBlocks
 import com.teamisotope.techexpansion.item.TEItems
 import net.minecraftforge.fml.common.{Mod, SidedProxy}
 import net.minecraftforge.fml.common.Mod._
@@ -15,6 +16,7 @@ object TechExpansion {
   @EventHandler
   def preInit(event: FMLPreInitializationEvent): Unit = {
     TEItems.register()
+    TEBlocks.register()
     proxy.preInit(event)
   }
 

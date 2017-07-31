@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "normal": {"model": "techexpansion:tests/test_block"}
+  }
+}
