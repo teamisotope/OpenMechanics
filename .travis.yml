@@ -1,6 +1,5 @@
 language: java
 script:
-  - chmod +x ./gradlew
   - ./gradlew setupCIWorkspace
   - ./gradlew build
 before_cache:
