@@ -1,0 +1,19 @@
+language: java
+script:
+  - ./gradlew setupCIWorkspace
+  - ./gradlew build
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  target_branch: deploy
+  local_dir: build/libs
+  on:
+    branch: mc1.10

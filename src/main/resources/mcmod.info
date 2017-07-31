@@ -1,0 +1,16 @@
+[
+{
+  "modid": "techexpansion",
+  "name": "TechExpansion",
+  "description": "Adds new ores and things.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/techexpansion",
+  "updateUrl": "",
+  "authorList": ["The_Puzzlemaker", "dadarkgragon (former author)"],
+  "credits": "McJty, TheGreyGhost, ShadowFacts, Forge Documentation, CJMinecraft",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
