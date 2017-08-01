@@ -3,15 +3,26 @@
 
 < Items >
 
-item.test_item.name=Test Item
+item.silicon.name=Silicon
+item.copper_ingot.name=Copper Ingot
+item.tin_ingot.name=Tin Ingot
+item.nickel_ingot.name=Nickel Ingot
+item.silver_ingot.name=Silver Ingot
+item.lead_ingot.name=Lead Ingot
+item.aluminum_ingot.name=Aluminum Ore
 
 < Blocks >
 
-tile.test_block.name=Test Block
+
 
 < Ores >
 
-
+tile.copper_ore.name=Copper Ore
+tile.tin_ore.name=Tin Ore
+tile.nickel_ore.name=Nickel Ore
+tile.silver_ore.name=Silver Ore
+tile.lead_ore.name=Lead Ore
+tile.aluminum_ore.name=Aluminum Ore
 
 < Achievements >
 
@@ -20,6 +31,9 @@ tile.test_block.name=Test Block
 < Creative Tabs >
 
 itemGroup.tab_techexpansion_misc=Tech Expansion | Misc
+itemGroup.tab_techexpansion_blocks=Tech Expansion | Blocks
+itemGroup.tab_techexpansion_equipment=Tech Expansion | Equipment
+itemGroup.tab_techexpansion_resources=Tech Expansion | Resources
 
 < Tools >
 

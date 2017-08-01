@@ -6,12 +6,12 @@ import net.minecraft.init.Items
 import net.minecraft.item.Item
 import net.minecraftforge.fml.relauncher.{Side, SideOnly}
 
-class TabTEMisc extends CreativeTabs("tab_techexpansion_misc") {
+class TabTEEquipment extends CreativeTabs("tab_techexpansion_equipment") {
 
   @SideOnly(Side.CLIENT)
   @Override
   override def getTabIconItem(): Item = {
-    Items.LAVA_BUCKET
+    Items.IRON_HELMET
   }
 
 }

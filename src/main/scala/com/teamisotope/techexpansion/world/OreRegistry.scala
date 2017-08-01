@@ -12,8 +12,8 @@ object OreRegistry {
     ores.append(ore)
   }
 
-  def registerOre(block: TEBlock, veinSize: Int, chancesToSpawn: Int, minHeight: Int, maxHeight: Int, dimension: Int, name: String): Unit = {
-    val ore: Ore = new Ore(block, veinSize, chancesToSpawn, minHeight, maxHeight, dimension, name)
+  def registerOre(block: TEBlock, veinSize: Int, chancesToSpawn: Int, minHeight: Int, maxHeight: Int, dimension: Int): Unit = {
+    val ore: Ore = new Ore(block, veinSize, chancesToSpawn, minHeight, maxHeight, dimension)
     ores.append(ore)
   }
 
