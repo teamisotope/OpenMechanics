@@ -13,7 +13,12 @@ item.aluminum_ingot.name=Aluminum Ore
 
 < Blocks >
 
-
+tile.copper_block.name=Block of Copper
+tile.tin_block.name=Block of Tin
+tile.nickel_block.name=Block of Nickel
+tile.silver_block.name=Block of Silver
+tile.lead_block.name=Block of Lead
+tile.aluminum_block.name=Block of Aluminum
 
 < Ores >
 

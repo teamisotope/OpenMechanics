@@ -13,7 +13,6 @@ object TEItems {
   val nickel_ingot: TEItem = new TEItem("nickel_ingot", TechExpansion.tab_resources, 64)
   val lead_ingot: TEItem = new TEItem("lead_ingot", TechExpansion.tab_resources, 64)
   val silver_ingot: TEItem = new TEItem("silver_ingot", TechExpansion.tab_resources, 64)
-  val silicon: TEItem = new TEItem("silicon", TechExpansion.tab_resources, 64)
 
   def register(): Unit = {
     GameRegistry.register(copper_ingot)
@@ -28,8 +27,6 @@ object TEItems {
     OreDictionary.registerOre("ingotLead", lead_ingot)
     GameRegistry.register(silver_ingot)
     OreDictionary.registerOre("ingotSilver", silver_ingot)
-    GameRegistry.register(silicon)
-    OreDictionary.registerOre("itemSilicon", silicon)
   }
 
   def renders(): Unit = {
@@ -39,6 +36,5 @@ object TEItems {
     RenderUtils.register(nickel_ingot, "resources")
     RenderUtils.register(lead_ingot, "resources")
     RenderUtils.register(silver_ingot, "resources")
-    RenderUtils.register(silicon, "resources")
   }
 }

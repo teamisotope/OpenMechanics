@@ -4,8 +4,8 @@ import java.io.File
 
 import com.teamisotope.techexpansion.block.TEBlocks
 import com.teamisotope.techexpansion.item.TEItems
-import com.teamisotope.techexpansion.util.{ConfigUtils, LogUtils, RecipeUtils}
-import com.teamisotope.techexpansion.world.{EnumDimension, Ore, OreRegistry, WorldGen}
+import com.teamisotope.techexpansion.util._
+import com.teamisotope.techexpansion.world.{OreRegistry, WorldGen}
 import net.minecraftforge.common.config.Configuration
 import net.minecraftforge.fml.common.event._
 import net.minecraftforge.fml.common.registry.GameRegistry
