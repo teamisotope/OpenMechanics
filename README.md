@@ -23,3 +23,5 @@ See the license in the LICENSE.md file
 See the CI at [https://travis-ci.org/teamisotope/TechExpansion](https://travis-ci.org/teamisotope/TechExpansion)
 
 Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/TechExpansion.svg?branch=mc1.10 "CI status")
+
+### Note: The latest CI version requires [CoFHCore](https://minecraft.curseforge.com/projects/CoFHCore) version 4.1.12.17+
