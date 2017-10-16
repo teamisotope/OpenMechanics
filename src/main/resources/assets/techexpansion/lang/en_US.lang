@@ -51,3 +51,13 @@ itemGroup.tab_techexpansion_resources=Tech Expansion | Resources
 < I18N >
 
 
+
+< Gears >
+
+item.gear_template.name=Gear Template
+item.aluminum_gear.name=Aluminum Gear
+item.copper_gear.name=Copper Gear
+item.lead_gear.name=Lead Gear
+item.nickel_gear.name=Nickel Gear
+item.silver_gear.name=Silver Gear
+item.tin_gear.name=Tin Gear
