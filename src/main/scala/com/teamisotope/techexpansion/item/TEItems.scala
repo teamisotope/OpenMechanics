@@ -1,6 +1,7 @@
 package com.teamisotope.techexpansion.item
 
 import com.teamisotope.techexpansion.TechExpansion
+import com.teamisotope.techexpansion.item.special.CoFHTest
 import net.minecraftforge.fml.common.registry.GameRegistry
 import com.teamisotope.techexpansion.util._
 import net.minecraftforge.oredict.OreDictionary
@@ -27,6 +28,7 @@ object TEItems {
     OreDictionary.registerOre("ingotLead", lead_ingot)
     GameRegistry.register(silver_ingot)
     OreDictionary.registerOre("ingotSilver", silver_ingot)
+    GameRegistry.register(new CoFHTest())
   }
 
   def renders(): Unit = {

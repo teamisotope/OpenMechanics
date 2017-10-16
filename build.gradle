@@ -11,7 +11,7 @@ apply plugin: 'scala'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 
-version = "v2-CI-1.10.2"
+version = "v2.0-1.10.2"
 group = "com.teamisotope.techexpansion"
 archivesBaseName = "TechExpansion"
 
@@ -26,8 +26,20 @@ minecraft {
     mappings = "snapshot_20161111"
 }
 
+repositories {
+	maven {
+		name = "JEI Maven"
+		url = "http://dvs1.progwml6.com/files/maven"
+	}
+	maven {
+		name = "CoFH Maven"
+		url = "http://maven.covers1624.net"
+	}
+}
+
+
 dependencies {
-    
+    deobfCompile "cofh:CoFHCore:1.10.2-4.1.12.17:universal"
 }
 
 processResources
@@ -43,5 +55,13 @@ processResources
         
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+    }
+}
+
+apply plugin: 'idea'
+
+idea {
+    module {
+        inheritOutputDirs = true
     }
 }

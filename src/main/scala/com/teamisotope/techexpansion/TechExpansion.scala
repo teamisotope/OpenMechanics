@@ -8,7 +8,7 @@ import com.teamisotope.techexpansion.util._
 import com.teamisotope.techexpansion.proxy._
 import com.teamisotope.techexpansion.tab._
 
-@Mod(modid=Ref.MODID,version=Ref.VERSION,modLanguage="scala",name=Ref.NAME,acceptedMinecraftVersions="")
+@Mod(modid=Ref.MODID,version=Ref.VERSION,modLanguage="scala",name=Ref.NAME,acceptedMinecraftVersions="1.10.2",dependencies="required-after:cofhcore@4.1.12.17")
 object TechExpansion {
 
   @SidedProxy(clientSide = Ref.CLIENT_PROXY, serverSide = Ref.SERVER_PROXY)

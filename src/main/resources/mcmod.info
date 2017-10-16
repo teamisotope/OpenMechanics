@@ -11,6 +11,6 @@
   "credits": "McJty, TheGreyGhost, ShadowFacts, Forge Documentation, CJMinecraft",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["cofhcore"]
 }
 ]
