@@ -11,7 +11,7 @@ class TabTEMisc extends CreativeTabs("tab_techexpansion_misc") {
   @SideOnly(Side.CLIENT)
   @Override
   override def getTabIconItem(): Item = {
-    Items.LAVA_BUCKET
+    TEItems.technicians_hammer
   }
 
 }
