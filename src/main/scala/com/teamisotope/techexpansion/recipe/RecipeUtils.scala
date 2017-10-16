@@ -37,9 +37,10 @@ object RecipeUtils {
     GameRegistry.addRecipe(new ItemStack(TEItems.nickel_gear), " i ", "iti", " i ", 'i'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.nickel_ingot, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], TEItems.gear_template)
     GameRegistry.addRecipe(new ItemStack(TEItems.silver_gear), " i ", "iti", " i ", 'i'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.silver_ingot, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], TEItems.gear_template)
     GameRegistry.addRecipe(new ItemStack(TEItems.lead_gear), " i ", "iti", " i ", 'i'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.lead_ingot, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], TEItems.gear_template)
+    GameRegistry.addRecipe(new ItemStack(TEItems.iron_gear), " i ", "iti", " i ", 'i'.asInstanceOf[java.lang.Character], new ItemStack(Items.IRON_INGOT, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], TEItems.gear_template)
     GameRegistry.addRecipe(new ItemStack(TEItems.gear_template), " s ", "sws", " s ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 'w'.asInstanceOf[java.lang.Character], new ItemStack(Blocks.PLANKS, 1, OreDictionary.WILDCARD_VALUE))
 
-    GameRegistry.addRecipe(new ItemStack(TEItems.technicians_hammer), " ii", " si", "s  ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 'i'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.tin_ingot, 1, OreDictionary.WILDCARD_VALUE))
+    GameRegistry.addRecipe(new ItemStack(TEItems.technicians_hammer), " ti", " st", "s  ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.tin_ingot, 1, OreDictionary.WILDCARD_VALUE), 'i'.asInstanceOf[java.lang.Character], new ItemStack(Items.IRON_INGOT, 1, OreDictionary.WILDCARD_VALUE))
   }
 
 }

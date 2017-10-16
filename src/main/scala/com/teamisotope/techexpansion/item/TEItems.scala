@@ -23,8 +23,9 @@ object TEItems {
   val nickel_gear: TEItem = new TEItem("nickel_gear", TechExpansion.tab_resources, 64)
   val lead_gear: TEItem = new TEItem("lead_gear", TechExpansion.tab_resources, 64)
   val silver_gear: TEItem = new TEItem("silver_gear", TechExpansion.tab_resources, 64)
+  val iron_gear: TEItem = new TEItem("iron_gear", TechExpansion.tab_resources, 64)
 
-  val technicians_hammer: TEItem = new TEItem("technicians_hammer", TechExpansion.tab_misc, 64)
+  val technicians_hammer: TEItem = new TEItem("technicians_hammer", TechExpansion.tab_misc, 1)
 
   def register(): Unit = {
     GameRegistry.register(copper_ingot)
@@ -52,6 +53,8 @@ object TEItems {
     OreDictionary.registerOre("gearLead", lead_gear)
     GameRegistry.register(silver_gear)
     OreDictionary.registerOre("gearSilver", silver_gear)
+    GameRegistry.register(iron_gear)
+    OreDictionary.registerOre("gearIron", iron_gear)
     GameRegistry.register(gear_template)
 
     GameRegistry.register(technicians_hammer)
@@ -73,6 +76,7 @@ object TEItems {
     RenderUtils.register(nickel_gear, "gears")
     RenderUtils.register(lead_gear, "gears")
     RenderUtils.register(silver_gear, "gears")
+    RenderUtils.register(iron_gear, "gears")
     RenderUtils.register(gear_template, "gears")
 
     RenderUtils.register(technicians_hammer, "misc")
