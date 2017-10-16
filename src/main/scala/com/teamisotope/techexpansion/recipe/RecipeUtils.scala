@@ -3,11 +3,13 @@ package com.teamisotope.techexpansion.util
 import com.teamisotope.techexpansion.block.TEBlocks
 import com.teamisotope.techexpansion.item.TEItems
 import net.minecraft.init.{Blocks, Items}
-import net.minecraft.item.ItemStack
+import net.minecraft.item.{Item, ItemStack}
 import net.minecraftforge.fml.common.registry.GameRegistry
 import net.minecraftforge.oredict.OreDictionary
 
 object RecipeUtils {
+
+  var eh_template: Item = TEItems.technicians_hammer.setContainerItem(TEItems.technicians_hammer)
 
   def init(): Unit = {
     GameRegistry.addSmelting(TEBlocks.copper_ore, new ItemStack(TEItems.copper_ingot), 3.0F)
@@ -41,6 +43,7 @@ object RecipeUtils {
     GameRegistry.addRecipe(new ItemStack(TEItems.gear_template), " s ", "sws", " s ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 'w'.asInstanceOf[java.lang.Character], new ItemStack(Blocks.PLANKS, 1, OreDictionary.WILDCARD_VALUE))
 
     GameRegistry.addRecipe(new ItemStack(TEItems.technicians_hammer), " ti", " st", "s  ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.tin_ingot, 1, OreDictionary.WILDCARD_VALUE), 'i'.asInstanceOf[java.lang.Character], new ItemStack(Items.IRON_INGOT, 1, OreDictionary.WILDCARD_VALUE))
+    /* test recipe */ //GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 4), eh_template, Blocks.LOG)
   }
 
 }

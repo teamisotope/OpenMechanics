@@ -1,7 +1,7 @@
 package com.teamisotope.techexpansion.item
 
 import com.teamisotope.techexpansion.TechExpansion
-import com.teamisotope.techexpansion.item.special.CoFHTest
+import com.teamisotope.techexpansion.item.special.{CoFHTest, TechniciansHammer}
 import net.minecraftforge.fml.common.registry.GameRegistry
 import com.teamisotope.techexpansion.util._
 import net.minecraft.item.ItemStack
@@ -25,7 +25,7 @@ object TEItems {
   val silver_gear: TEItem = new TEItem("silver_gear", TechExpansion.tab_resources, 64)
   val iron_gear: TEItem = new TEItem("iron_gear", TechExpansion.tab_resources, 64)
 
-  val technicians_hammer: TEItem = new TEItem("technicians_hammer", TechExpansion.tab_misc, 1)
+  val technicians_hammer: TEItem = new TechniciansHammer()
 
   def register(): Unit = {
     GameRegistry.register(copper_ingot)
