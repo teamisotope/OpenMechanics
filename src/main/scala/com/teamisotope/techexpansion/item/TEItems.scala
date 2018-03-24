@@ -61,7 +61,7 @@ object TEItems {
 
     GameRegistry.register(technicians_hammer)
 
-    GameRegistry.register(battery_t1)
+    //GameRegistry.register(battery_t1)
   }
 
   def renders(): Unit = {
@@ -83,6 +83,6 @@ object TEItems {
 
     RenderUtils.register(technicians_hammer, "misc")
 
-    battery_t1.initModel()
+    //battery_t1.initModel()
   }
 }

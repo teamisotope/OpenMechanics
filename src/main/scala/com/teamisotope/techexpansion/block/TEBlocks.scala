@@ -7,7 +7,7 @@ import com.teamisotope.techexpansion.util.RenderUtils
 import com.teamisotope.techexpansion.world.{EnumDimension, Ore}
 import net.minecraft.block.Block
 import net.minecraft.block.material.Material
-import net.minecraft.item.ItemBlock
+import net.minecraft.item.{ItemBlock, ItemStack}
 import net.minecraftforge.fml.common.registry.GameRegistry
 import net.minecraftforge.oredict.OreDictionary
 
@@ -44,6 +44,35 @@ object TEBlocks {
     MineralRegistry.registerMineral(cassiterite)
     MineralRegistry.registerMineral(native_gold)
     MineralRegistry.registerMineral(native_copper)
+
+    OreDictionary.registerOre("oreGalena", new ItemStack(raw_mineral_item, 1, 0))
+    OreDictionary.registerOre("oreLead", new ItemStack(raw_mineral_item, 1, 0))
+    OreDictionary.registerOre("galena", new ItemStack(raw_mineral_item, 1, 0))
+
+    OreDictionary.registerOre("oreNativeSilver", new ItemStack(raw_mineral_item, 1, 1))
+    OreDictionary.registerOre("oreSilver", new ItemStack(raw_mineral_item, 1, 1))
+    OreDictionary.registerOre("nativeSilver", new ItemStack(raw_mineral_item, 1, 1))
+
+    OreDictionary.registerOre("oreTetrataenite", new ItemStack(raw_mineral_item, 1, 2))
+    OreDictionary.registerOre("oreIron", new ItemStack(raw_mineral_item, 1, 2))
+    OreDictionary.registerOre("oreNickel", new ItemStack(raw_mineral_item, 1, 2))
+    OreDictionary.registerOre("tetrataenite", new ItemStack(raw_mineral_item, 1, 2))
+
+    OreDictionary.registerOre("oreBauxite", new ItemStack(raw_mineral_item, 1, 3))
+    OreDictionary.registerOre("oreAluminum", new ItemStack(raw_mineral_item, 1, 3))
+    OreDictionary.registerOre("bauxite", new ItemStack(raw_mineral_item, 1, 3))
+
+    OreDictionary.registerOre("oreCassiterite", new ItemStack(raw_mineral_item, 1, 4))
+    OreDictionary.registerOre("oreTin", new ItemStack(raw_mineral_item, 1, 4))
+    OreDictionary.registerOre("cassiterite", new ItemStack(raw_mineral_item, 1, 4))
+
+    OreDictionary.registerOre("oreNativeGold", new ItemStack(raw_mineral_item, 1, 5))
+    OreDictionary.registerOre("oreGold", new ItemStack(raw_mineral_item, 1, 5))
+    OreDictionary.registerOre("nativeGold", new ItemStack(raw_mineral_item, 1, 5))
+
+    OreDictionary.registerOre("oreNativeCopper", new ItemStack(raw_mineral_item, 1, 6))
+    OreDictionary.registerOre("oreCopper", new ItemStack(raw_mineral_item, 1, 6))
+    OreDictionary.registerOre("nativeCopper", new ItemStack(raw_mineral_item, 1, 6))
 
     registerBlock(copper_block)
     OreDictionary.registerOre("blockCopper", copper_block)

@@ -20,7 +20,7 @@ import net.minecraft.world.World
 import com.teamisotope.techexpansion.block.special.RawMaterialProps._
 import net.minecraft.creativetab.CreativeTabs
 
-class RawMineral extends TEBlock(Material.ROCK, "raw_mineral", TechExpansion.tab_blocks, 3.0f, 10.0f, "pickaxe", 1) {
+class RawMineral extends TEBlock(Material.ROCK, "raw_mineral", TechExpansion.tab_blocks, 3.0f, 10.0f, "pickaxe", 2) {
 
   override protected def createBlockState(): BlockStateContainer = {
     new BlockStateContainer(this, MINERAL_TYPE)
@@ -53,7 +53,7 @@ class RawMineral extends TEBlock(Material.ROCK, "raw_mineral", TechExpansion.tab
   }
 
   override def getSubBlocks(itemIn: Item, tab: CreativeTabs, list: util.List[ItemStack]): Unit = {
-    for (i <- 0 to 7 ) {
+    for (i <- 0 to 6 ) {
       list.add(i, new ItemStack(this, 1, i))
     }
   }

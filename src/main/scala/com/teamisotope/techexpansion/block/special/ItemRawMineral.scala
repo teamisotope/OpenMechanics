@@ -21,7 +21,7 @@ class ItemRawMineral extends ItemBlock(TEBlocks.raw_mineral) {
   this.setHasSubtypes(true)
 
   override def getSubItems(itemIn: Item, tab: CreativeTabs, subItems: util.List[ItemStack]): Unit = {
-    for (i <- 0 to 7 ) {
+    for (i <- 0 to 6 ) {
       subItems.add(i, new ItemStack(this, 1, i))
     }
   }
@@ -46,17 +46,27 @@ class ItemRawMineral extends ItemBlock(TEBlocks.raw_mineral) {
   def initModel() : Unit = {
     val galena: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/galena", "inventory")
     val native_silver: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/native_silver", "inventory")
+    val tetrataenite: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/tetrataenite", "inventory")
+    val bauxite: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/bauxite", "inventory")
+    val cassiterite: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/cassiterite", "inventory")
+    val native_gold: ModelResourceLocation = new ModelResourceLocation("minecraft:gold_ore", "inventory")
+    val native_copper: ModelResourceLocation = new ModelResourceLocation("techexpansion:blocks/ores/native_copper", "inventory")
     val undefined: ModelResourceLocation = new ModelResourceLocation("minecraft:missing", "inventory")
 
 
-    ModelBakery.registerItemVariants(this, galena, undefined)
+    ModelBakery.registerItemVariants(this, galena, native_silver, tetrataenite, bauxite, cassiterite, native_gold, native_copper, undefined)
 
     ModelLoader.setCustomMeshDefinition(this, new ItemMeshDefinition() {
       override def getModelLocation(stack: ItemStack): ModelResourceLocation = {
 
-        stack.getMetadata() match {
+        stack.getMetadata match {
           case 0 => galena;
           case 1 => native_silver;
+          case 2 => tetrataenite;
+          case 3 => bauxite;
+          case 4 => cassiterite;
+          case 5 => native_gold;
+          case 6 => native_copper;
           case _ => undefined;
         }
       }
