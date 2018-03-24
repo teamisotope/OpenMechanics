@@ -1,10 +1,10 @@
 package com.teamisotope.techexpansion.item
 
 import com.teamisotope.techexpansion.TechExpansion
-import com.teamisotope.techexpansion.item.special.{CoFHTest, TechniciansHammer}
+import com.teamisotope.techexpansion.item.special.{BatteryT1, TechniciansHammer}
 import net.minecraftforge.fml.common.registry.GameRegistry
 import com.teamisotope.techexpansion.util._
-import net.minecraft.item.ItemStack
+import net.minecraft.item.{Item, ItemStack}
 import net.minecraftforge.oredict.OreDictionary
 
 object TEItems {
@@ -26,6 +26,8 @@ object TEItems {
   val iron_gear: TEItem = new TEItem("iron_gear", TechExpansion.tab_resources, 64)
 
   val technicians_hammer: TEItem = new TechniciansHammer()
+
+  val battery_t1: BatteryT1 = new BatteryT1()
 
   def register(): Unit = {
     GameRegistry.register(copper_ingot)
@@ -59,7 +61,7 @@ object TEItems {
 
     GameRegistry.register(technicians_hammer)
 
-    GameRegistry.register(new CoFHTest())
+    GameRegistry.register(battery_t1)
   }
 
   def renders(): Unit = {
@@ -80,5 +82,7 @@ object TEItems {
     RenderUtils.register(gear_template, "gears")
 
     RenderUtils.register(technicians_hammer, "misc")
+
+    battery_t1.initModel()
   }
 }

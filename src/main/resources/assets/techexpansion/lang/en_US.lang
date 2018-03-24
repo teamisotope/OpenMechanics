@@ -50,7 +50,41 @@ itemGroup.tab_techexpansion_resources=Tech Expansion | Resources
 
 < I18N >
 
+<< Minerals >>
 
+tile.raw_mineral.name=Mineral
+techexpansion.mineral.type=Mineral Type
+techexpansion.mineral.unknown=Unknown mineral!
+
+<<< Mineral Types >>>
+
+techexpansion.mineral.galena.name=Galena
+techexpansion.mineral.galena.yield=Yield: Lead (3/4 ingot), Silver (1/4 ingot)
+techexpansion.mineral.galena.desc=Galena is a mineral mostly mined for lead, but is also sometimes mined for silver.
+
+techexpansion.mineral.native_silver.name=Native Silver
+techexpansion.mineral.native_silver.yield=Yield: Silver (1 ingot)
+techexpansion.mineral.native_silver.desc=Native silver is a mineral that is more often mined for silver.
+
+techexpansion.mineral.tetrataenite.name=Tetrataenite
+techexpansion.mineral.tetrataenite.yield=Yield per ore: Iron (1/2 ingot), Nickel (1/2 ingot)
+techexpansion.mineral.tetrataenite.desc=Tetrataenite is a mineral that contains a 1:1 ratio of iron to nickel.
+
+techexpansion.mineral.bauxite.name=Bauxite
+techexpansion.mineral.bauxite.yield=Yield per ore: Aluminum (1 ingot)
+techexpansion.mineral.bauxite.desc=Bauxite is a mineral that contains aluminum.
+
+techexpansion.mineral.cassiterite.name=Cassiterite
+techexpansion.mineral.cassiterite.yield=Yield per ore: Tin (1 ingot)
+techexpansion.mineral.cassiterite.desc=Cassiterite is a material that contains tin.
+
+techexpansion.mineral.native_gold.name=Native Gold
+techexpansion.mineral.native_gold.yield=Yield per ore: Gold (1 ingot)
+techexpansion.mineral.native_gold.desc=Native gold is a common form of gold.
+
+techexpansion.mineral.native_copper.name=Native Copper
+techexpansion.mineral.native_copper.yield=Yield per ore: Copper (1 ingot)
+techexpansion.mineral.native_copper.desc=Native copper is a common form of copper.
 
 < Gears >
 
@@ -66,3 +100,8 @@ item.iron_gear.name=Iron Gear
 < Misc >
 
 item.technicians_hammer.name=Technician's Hammer
+
+< Machines >
+
+tile.vacuum_pump.name=Vacuum Pump
+tile.glass_chamber.name=Glass Chamber

@@ -12,12 +12,12 @@ object RecipeUtils {
   var eh_template: Item = TEItems.technicians_hammer.setContainerItem(TEItems.technicians_hammer)
 
   def init(): Unit = {
-    GameRegistry.addSmelting(TEBlocks.copper_ore, new ItemStack(TEItems.copper_ingot), 3.0F)
-    GameRegistry.addSmelting(TEBlocks.aluminum_ore, new ItemStack(TEItems.aluminum_ingot), 3.0F)
-    GameRegistry.addSmelting(TEBlocks.tin_ore, new ItemStack(TEItems.tin_ingot), 3.0F)
-    GameRegistry.addSmelting(TEBlocks.nickel_ore, new ItemStack(TEItems.nickel_ingot), 3.0F)
-    GameRegistry.addSmelting(TEBlocks.lead_ore, new ItemStack(TEItems.lead_ingot), 3.0F)
-    GameRegistry.addSmelting(TEBlocks.silver_ore, new ItemStack(TEItems.silver_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.copper_ore, new ItemStack(TEItems.copper_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.aluminum_ore, new ItemStack(TEItems.aluminum_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.tin_ore, new ItemStack(TEItems.tin_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.nickel_ore, new ItemStack(TEItems.nickel_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.lead_ore, new ItemStack(TEItems.lead_ingot), 3.0F)
+    //GameRegistry.addSmelting(TEBlocks.silver_ore, new ItemStack(TEItems.silver_ingot), 3.0F)
 
     GameRegistry.addRecipe(new ItemStack(TEBlocks.copper_block), "iii", "iii", "iii", 'i'.asInstanceOf[java.lang.Character], TEItems.copper_ingot)
     GameRegistry.addRecipe(new ItemStack(TEBlocks.aluminum_block), "iii", "iii", "iii", 'i'.asInstanceOf[java.lang.Character], TEItems.aluminum_ingot)
@@ -44,6 +44,9 @@ object RecipeUtils {
 
     GameRegistry.addRecipe(new ItemStack(TEItems.technicians_hammer), " ti", " st", "s  ", 's'.asInstanceOf[java.lang.Character], new ItemStack(Items.STICK, 1, OreDictionary.WILDCARD_VALUE), 't'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.tin_ingot, 1, OreDictionary.WILDCARD_VALUE), 'i'.asInstanceOf[java.lang.Character], new ItemStack(Items.IRON_INGOT, 1, OreDictionary.WILDCARD_VALUE))
     /* test recipe */ //GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS, 4), eh_template, Blocks.LOG)
+
+    // temporary recipe, until I add plates #toolazytodoitrightnowlol
+    GameRegistry.addRecipe(new ItemStack(TEItems.battery_t1)," t ","trt", "trt", 't'.asInstanceOf[java.lang.Character], new ItemStack(TEItems.tin_ingot, 1, OreDictionary.WILDCARD_VALUE), 'r'.asInstanceOf[java.lang.Character], new ItemStack(Items.REDSTONE, 1, OreDictionary.WILDCARD_VALUE))
   }
 
 }

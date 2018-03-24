@@ -10,6 +10,7 @@ import net.minecraftforge.common.config.Configuration
 import net.minecraftforge.fml.common.event._
 import net.minecraftforge.fml.common.registry.GameRegistry
 import org.apache.logging.log4j.Logger
+import com.teamisotope.techexpansion.te._
 
 class CommonProxy {
 
@@ -26,16 +27,19 @@ class CommonProxy {
     TEBlocks.register()
     RecipeUtils.init()
     LogUtils.info("Pre-initialization finished.")
+    GameRegistry.registerTileEntity(classOf[GlassChamberTE], "techexpansion.te.glass_chamber")
+    GameRegistry.registerTileEntity(classOf[VacuumPumpTE], "techexpansion.te.vacuum_pump")
+
   }
 
   def init(event: FMLInitializationEvent): Unit = {
     GameRegistry.registerWorldGenerator(new WorldGen(), 0)
-    OreRegistry.registerOre(TEBlocks.ore_copper)
-    OreRegistry.registerOre(TEBlocks.ore_aluminum)
-    OreRegistry.registerOre(TEBlocks.ore_lead)
-    OreRegistry.registerOre(TEBlocks.ore_nickel)
-    OreRegistry.registerOre(TEBlocks.ore_silver)
-    OreRegistry.registerOre(TEBlocks.ore_lead)
+    //OreRegistry.registerOre(TEBlocks.ore_copper)
+    //OreRegistry.registerOre(TEBlocks.ore_aluminum)
+    //OreRegistry.registerOre(TEBlocks.ore_lead)
+    //OreRegistry.registerOre(TEBlocks.ore_nickel)
+    //OreRegistry.registerOre(TEBlocks.ore_silver)
+    //OreRegistry.registerOre(TEBlocks.ore_lead)
     LogUtils.info("Initialization finished.")
   }
 

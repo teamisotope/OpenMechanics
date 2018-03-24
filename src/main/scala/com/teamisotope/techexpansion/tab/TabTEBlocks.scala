@@ -10,7 +10,7 @@ class TabTEBlocks extends CreativeTabs("tab_techexpansion_blocks") {
   @SideOnly(Side.CLIENT)
   @Override
   override def getTabIconItem(): Item = {
-    TEBlocks.copper_ore.itemblock
+    TEBlocks.copper_block.itemblock
   }
 
 }

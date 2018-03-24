@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "techexpansion:items/misc/battery_t1/battery_t1_r600"
+  }
+}

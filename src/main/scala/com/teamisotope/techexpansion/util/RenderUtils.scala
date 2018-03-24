@@ -1,6 +1,7 @@
 package com.teamisotope.techexpansion.util
 
 import com.teamisotope.techexpansion.block.TEBlock
+import net.minecraft.block.Block
 import net.minecraft.client.renderer.block.model.ModelResourceLocation
 import net.minecraft.item.{Item, ItemBlock}
 import net.minecraft.util.ResourceLocation
@@ -18,5 +19,9 @@ object RenderUtils {
     val ib: ItemBlock = block.itemblock
     val rl: ResourceLocation = ib.getRegistryName()
     ModelLoader.setCustomModelResourceLocation(ib, 0, new ModelResourceLocation(rl.getResourceDomain() + ":blocks/" + extra + "/" + rl.getResourcePath(), "inventory"))
+  }
+  // Register method for minerals
+  def register(block: Block, extra: String, meta: Int): Unit = {
+    ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block),meta,new ModelResourceLocation(block.getRegistryName.getResourceDomain+":blocks/"+extra+"/"+block.getRegistryName.getResourcePath, "inventory"))
   }
 }
