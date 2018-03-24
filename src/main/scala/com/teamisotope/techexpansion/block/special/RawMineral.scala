@@ -2,6 +2,7 @@ package com.teamisotope.techexpansion.block.special
 
 import java.util.Random
 import java.lang.Integer
+import java.util
 
 import com.teamisotope.techexpansion.TechExpansion
 import com.teamisotope.techexpansion.block.{TEBlock, TEBlocks}
@@ -17,6 +18,7 @@ import net.minecraft.util.{EnumFacing, EnumHand}
 import net.minecraft.util.math.BlockPos
 import net.minecraft.world.World
 import com.teamisotope.techexpansion.block.special.RawMaterialProps._
+import net.minecraft.creativetab.CreativeTabs
 
 class RawMineral extends TEBlock(Material.ROCK, "raw_mineral", TechExpansion.tab_blocks, 3.0f, 10.0f, "pickaxe", 1) {
 
@@ -48,6 +50,12 @@ class RawMineral extends TEBlock(Material.ROCK, "raw_mineral", TechExpansion.tab
     stack.setItemDamage(this.getMetaFromState(state))
     val item: EntityItem = new EntityItem(world, pos.getX, pos.getY, pos.getZ, stack)
     world.spawnEntityInWorld(item)
+  }
+
+  override def getSubBlocks(itemIn: Item, tab: CreativeTabs, list: util.List[ItemStack]): Unit = {
+    for (i <- 0 to 7 ) {
+      list.add(i, new ItemStack(this, 1, i))
+    }
   }
 
 }

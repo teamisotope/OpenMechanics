@@ -12,6 +12,7 @@ import net.minecraft.block.state.{BlockStateContainer, IBlockState}
 import net.minecraft.block.{Block, ITileEntityProvider}
 import net.minecraft.client.renderer.ItemMeshDefinition
 import net.minecraft.client.renderer.block.model.{ModelBakery, ModelResourceLocation}
+import net.minecraft.client.resources.I18n
 import net.minecraft.entity.{Entity, EntityLivingBase}
 import net.minecraft.entity.player.EntityPlayer
 import net.minecraft.init.{Blocks, Items}
@@ -40,12 +41,12 @@ class VacuumPump extends TEBlock(Material.ROCK, "vacuum_pump", TechExpansion.tab
         var str: String = ""
         getTE(world,pos).toggle()
         getTE(world,pos).getState match {
-          case true => str = "on";
-          case false => str = "off";
+          case true => str = I18n.format("techexpansion.general.on");
+          case false => str = I18n.format("techexpansion.general.on");
         }
-        player.addChatComponentMessage(new TextComponentString(TextFormatting.GREEN + "Vacuum chamber " + str + "."))
+        player.addChatComponentMessage(new TextComponentString(TextFormatting.GREEN + I18n.format("techexpansion.vacuum_pump.info") + " " + str + "."))
       } else {
-        player.addChatComponentMessage(new TextComponentString(TextFormatting.RED + "Error: No Glass Chamber at position (x,y,z) ["+pos2.getX+","+pos2.getY+","+pos2.getZ+"]."))
+        player.addChatComponentMessage(new TextComponentString(TextFormatting.RED + I18n.format("techexpansion.vacuum_pump.error") + " (x,y,z) ["+pos2.getX+","+pos2.getY+","+pos2.getZ+"]."))
       }
     }
     true

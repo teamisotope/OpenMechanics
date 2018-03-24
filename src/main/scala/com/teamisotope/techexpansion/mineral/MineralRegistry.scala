@@ -8,13 +8,13 @@ object MineralRegistry {
 
   private val ids: mutable.HashMap[Int, Mineral] = new mutable.HashMap[Int, Mineral]()
 
-  private var currentId: Int = -1
+  private var currentId: Int = 0
 
   def registerMineral(mineral: Mineral): Unit = {
-    if (!(ids.contains(currentId+1) && map.contains(mineral.getRegistryName))) {
-      currentId+=1
+    if (!(ids.contains(currentId) && !map.contains(mineral.getRegistryName))) {
       map.put(mineral.getRegistryName, mineral)
       ids.put(currentId, mineral)
+      currentId+=1
     }
   }
 

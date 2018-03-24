@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event._
 import net.minecraftforge.fml.common.registry.GameRegistry
 import org.apache.logging.log4j.Logger
 import com.teamisotope.techexpansion.te._
+import net.minecraftforge.common.MinecraftForge
 
 class CommonProxy {
 
@@ -29,7 +30,7 @@ class CommonProxy {
     LogUtils.info("Pre-initialization finished.")
     GameRegistry.registerTileEntity(classOf[GlassChamberTE], "techexpansion.te.glass_chamber")
     GameRegistry.registerTileEntity(classOf[VacuumPumpTE], "techexpansion.te.vacuum_pump")
-
+    MinecraftForge.EVENT_BUS.register(Handlers)
   }
 
   def init(event: FMLInitializationEvent): Unit = {

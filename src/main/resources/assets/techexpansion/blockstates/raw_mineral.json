@@ -1,0 +1,28 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "this:is/fake/but/i/do/not/care/that/this/model/is/fake/it/is/just/a/missing/model/and/i/do/not/need/a/real/model/so/seriously/this/is/just/an/easter/egg"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}],
+    "mineral_type": {
+      "0": {"model": "techexpansion:ores/galena"},
+      "1": {"model": "techexpansion:ores/native_silver"},
+      "2": {},
+      "3": {},
+      "4": {},
+      "5": {},
+      "6": {},
+      "7": {},
+      "8": {},
+      "9": {},
+      "10": {},
+      "11": {},
+      "12": {},
+      "13": {},
+      "14": {},
+      "15": {}
+    }
+  }
+}

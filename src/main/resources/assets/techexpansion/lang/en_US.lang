@@ -50,6 +50,20 @@ itemGroup.tab_techexpansion_resources=Tech Expansion | Resources
 
 < I18N >
 
+<< General >>
+
+techexpansion.general.yes=Yes
+techexpansion.general.no=No
+techexpansion.general.on=On
+techexpansion.general.off=Off
+
+techexpansion.event.join.message=Thank you for downloading TechExpansion! I have spent a lot of time developing this mod, so I hope you enjoy it! - The Puzzlemaker
+
+<< Vacuum Chamber >>
+
+techexpansion.vacuum_pump.error=Error: No Glass Chamber at position
+techexpansion.vacuum_pump.info=Vacuum Chamber
+
 << Minerals >>
 
 tile.raw_mineral.name=Mineral

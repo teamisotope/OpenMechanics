@@ -75,6 +75,7 @@ object TEBlocks {
 
     RenderUtils.register(vacuum_pump, "machines")
     RenderUtils.register(glass_chamber, "machines")
+    raw_mineral_item.initModel()
   }
 
   private def registerBlock(b: TEBlock) {
