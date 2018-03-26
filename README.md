@@ -1,4 +1,4 @@
-# TechExpansion
+# OpenMechanics
 Adds new ores and things. This branch currently contains the development for version 2.0.
 
 # Credits
