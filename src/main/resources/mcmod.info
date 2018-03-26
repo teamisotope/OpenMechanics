@@ -1,13 +1,13 @@
 [
 {
   "modid": "techexpansion",
-  "name": "TechExpansion",
+  "name": "OpenMechanics",
   "description": "Adds new ores and things.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://minecraft.curseforge.com/projects/techexpansion",
   "updateUrl": "",
-  "authorList": ["The_Puzzlemaker", "dadarkgragon (former author)"],
+  "authorList": ["The Puzzlemaker", "dadarkgragon (former author)"],
   "credits": "McJty, TheGreyGhost, ShadowFacts, Forge Documentation, CJMinecraft",
   "logoFile": "",
   "screenshots": [],
