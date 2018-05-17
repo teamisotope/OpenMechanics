@@ -1,5 +1,5 @@
 # Note: help needed!
-I am having trouble coming up with the code for the mineral furnace. If you are an experienced Minecraft mod programmer, please help if you would like. Thank you for any potential contribution for the greater good of this mod.
+I am having trouble coming up with the code for the mineral furnace. If you are an experienced Minecraft mod programmer, please help if you would like. Thank you for any potential contribution for the greater good of this mod. (see issue #9)
 
 # OpenMechanics
 Adds new ores and things. This branch currently contains the development for version 2.0.
