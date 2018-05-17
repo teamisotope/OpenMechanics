@@ -29,4 +29,4 @@ Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/OpenMechan
 
 ### Note: The latest CI version requires [CoFHCore](https://minecraft.curseforge.com/projects/CoFHCore) version 4.1.12.17+
 
-P.S. The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker)
+P.S. The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker).
