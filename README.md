@@ -1,3 +1,6 @@
+# Note: help needed!
+I am having trouble coming up with the code for the mineral furnace. If you are an experienced Minecraft mod programmer, please help if you would like. Thank you for any potential contribution for the greater good of this mod.
+
 # OpenMechanics
 Adds new ores and things. This branch currently contains the development for version 2.0.
 
@@ -25,3 +28,5 @@ See the CI at [https://travis-ci.org/teamisotope/OpenMechanics](https://travis-c
 Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=mc1.10 "CI status")
 
 ### Note: The latest CI version requires [CoFHCore](https://minecraft.curseforge.com/projects/CoFHCore) version 4.1.12.17+
+
+P.S. The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker)
