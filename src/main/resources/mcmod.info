@@ -1,16 +1,16 @@
 [
 {
-  "modid": "techexpansion",
+  "modid": "openmechanics",
   "name": "OpenMechanics",
-  "description": "Adds new ores and things.",
+  "description": "An open source, realistic, long progression tech mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://minecraft.curseforge.com/projects/techexpansion",
+  "url": "",
   "updateUrl": "",
   "authorList": ["The Puzzlemaker", "dadarkgragon (former author)"],
-  "credits": "McJty, TheGreyGhost, ShadowFacts, Forge Documentation, CJMinecraft",
+  "credits": "Many, many, many people.",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": ["cofhcore"]
+  "dependencies": []
 }
 ]

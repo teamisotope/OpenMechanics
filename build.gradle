@@ -1,54 +1,49 @@
 buildscript {
     repositories {
         jcenter()
+		mavenCentral()
         maven { url = "http://files.minecraftforge.net/maven" }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
     }
 }
-apply plugin: 'scala'
 apply plugin: 'net.minecraftforge.gradle.forge'
 
+version = "2.0.0"
+group = "com.teamisotope.openmechanics"
+archivesBaseName = "openmechanics"
 
-version = "v2.0.0-1.10.2"
-group = "com.teamisotope.techexpansion"
-archivesBaseName = "OpenMechanics"
-
-sourceCompatibility = targetCompatibility = "1.6"
+sourceCompatibility = targetCompatibility = '1.8'
 compileJava {
-    sourceCompatibility = targetCompatibility = "1.6"
+    sourceCompatibility = targetCompatibility = '1.8'
 }
 
 minecraft {
-    version = "1.10.2-12.18.3.2422"
+    version = "1.12.2-14.23.4.2745"
     runDir = "run"
-    mappings = "snapshot_20161111"
+    
+    mappings = "snapshot_20171003"
 }
 
 repositories {
-	maven {
-		name = "JEI Maven"
-		url = "http://dvs1.progwml6.com/files/maven"
-	}
-	maven {
-		name = "CoFH Maven"
-		url = "http://maven.covers1624.net"
-	}
     maven {
-        name = "Apache Maven"
-        url = "http://central.maven.org/maven2"
+        name = "CoFH Maven"
+        url = "http://maven.covers1624.net"
     }
+	maven {
+		name = "IsoCore @ Bintray"
+		url = "https://dl.bintray.com/teamisotope/isocore"
+	}
 }
-
 
 dependencies {
-    deobfCompile "cofh:CoFHCore:1.10.2-4.1.12.17:universal"
-    compile "org.apache.commons:commons-math3:3.6.1"
+    deobfCompile "cofh:RedstoneFlux:1.12-2.0.0.1:universal"
+	deobfCompile "teamisotope.isocore.IsotopeCore:isocore:1.0.0:api"
+	runtime "teamisotope.isocore.IsotopeCore:isocore:1.0.0"
 }
 
-processResources
-{
+processResources {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
@@ -58,15 +53,7 @@ processResources
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
         
-    from(sourceSets.main.resources.srcDirs) {
+	from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
-    }
-}
-
-apply plugin: 'idea'
-
-idea {
-    module {
-        inheritOutputDirs = true
     }
 }

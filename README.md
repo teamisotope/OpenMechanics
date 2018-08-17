@@ -1,16 +1,19 @@
 # OpenMechanics
-Adds new ores and things. This branch currently contains the development for version 2.0.
+OpenMechanics is an open-source, long-progression, realistic tech mod for Minecraft.
+
+## About This Branch
+This branch is for development in Minecraft version 1.12.2.
 
 # Credits
-McJty (Modding Tutorials)
+* McJty (Modding Tutorials)
 
-TheGreyGhost (MinecraftByExample)
+* TheGreyGhost (MinecraftByExample)
 
-ShadowFacts (Modding Tutorial)
+* ShadowFacts (Modding Tutorial)
 
-Forge Documentation
+* Forge Documentation
 
-CJMinecraft (Modding Tutorials)
+* CJMinecraft (Modding Tutorials)
 
 If you are creating a mod and you are new to modding, I would strongly recommend using the above resources.
 
@@ -22,8 +25,6 @@ See the license in the LICENSE.md file
 
 See the CI at [https://travis-ci.org/teamisotope/OpenMechanics](https://travis-ci.org/teamisotope/OpenMechanics)
 
-Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=mc1.10 "CI status")
-
-### Note: The latest CI version requires [CoFHCore](https://minecraft.curseforge.com/projects/CoFHCore) version 4.1.12.17+
+Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=1.12.2-dev "CI status")
 
 P.S. The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker).
