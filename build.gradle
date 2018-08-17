@@ -31,16 +31,10 @@ repositories {
         name = "CoFH Maven"
         url = "http://maven.covers1624.net"
     }
-	maven {
-		name = "IsoCore @ Bintray"
-		url = "https://dl.bintray.com/teamisotope/isocore"
-	}
 }
 
 dependencies {
     deobfCompile "cofh:RedstoneFlux:1.12-2.0.0.1:universal"
-	deobfCompile "teamisotope.isocore.IsotopeCore:isocore:1.0.0:api"
-	runtime "teamisotope.isocore.IsotopeCore:isocore:1.0.0"
 }
 
 processResources {
