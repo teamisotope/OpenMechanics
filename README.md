@@ -32,6 +32,11 @@ The creation of OpenMechanics can be greatly supported by [donating on Patreon](
 ## Quick Links
 
 * [CurseForge](https://minecraft.curseforge.com/projects/openmechanics)
+
 * [Travis CI](https://travis-ci.org/teamisotope/OpenMechanics)
+
 * [Minecraft Forum Page](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2896399-openmechanics-an-open-source-realistic-long)
+
 * [GitBook Page](https://teamisotope.gitbook.io/openmechanics)
+
+* [Discord](https://discord.gg/jAFZVry)
