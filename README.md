@@ -1,33 +1,37 @@
-# OpenMechanics
+# OpenMechanics ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=1.12.2-dev "CI status")
 
 ![logo](src/main/resources/assets/openmechanics/textures/gui/om-logo.png)
 
 OpenMechanics is an open-source, long-progression, realistic tech mod for Minecraft.
 
-## About This Branch
-This branch is for development in Minecraft version 1.12.2.
+### Branch `1.12.2-dev`
+This branch is used for development of OpenMechanics in 1.12.2.
 
-# Credits
-* McJty (Modding Tutorials)
+### Credits
+* [McJty's Modding Tutorials](https://wiki.mcjty.eu/modding/index.php?title=Main_Page)
 
-* TheGreyGhost (MinecraftByExample)
+* [TheGreyGhost/MinecraftByExample](https://github.com/thegreyghost/MinecraftbyExample)
 
-* ShadowFacts (Modding Tutorial)
+* [ShadowFacts Forge Modding Tutorials](https://shadowfacts.net/tutorials/)
 
-* Forge Documentation
+* [Forge Documentation](https://mcforge.readthedocs.io/en/latest/)
 
-* CJMinecraft (Modding Tutorials)
+* [CJMinecraft Modding Tutorials](https://www.youtube.com/channel/UCTkGJvB1v6dfV8ZyryRKPHQ)
 
-If you are creating a mod and you are new to modding, I would strongly recommend using the above resources.
+### License
 
-# License
+The [license](LICENSE.md) for OpenMechanics is a simple, custom one. __*Disclaimer: I am not a lawyer.*__
 
-See the license in the LICENSE.md file
+### Travis CI
 
-# CI (Travis)
+The Travis CI page for OpenMechanics can be seen [here](https://travis-ci.org/teamisotope/OpenMechanics).
 
-See the CI at [https://travis-ci.org/teamisotope/OpenMechanics](https://travis-ci.org/teamisotope/OpenMechanics)
+#### Footnote
+The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker).
 
-Current CI status: ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=1.12.2-dev "CI status")
+## Quick Links
 
-P.S. The creation of OpenMechanics can be greatly supported by [donating on Patreon](https://patreon.com/thepuzzlemaker).
+* [CurseForge](https://minecraft.curseforge.com/projects/openmechanics)
+* [Travis CI](https://travis-ci.org/teamisotope/OpenMechanics)
+* [Minecraft Forum Page](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2896399-openmechanics-an-open-source-realistic-long)
+* [GitBook Page](https://teamisotope.gitbook.io/openmechanics)
