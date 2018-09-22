@@ -1,4 +1,7 @@
 # OpenMechanics
+
+![logo](src/main/resources/assets/openmechanics/textures/gui/om-logo.png)
+
 OpenMechanics is an open-source, long-progression, realistic tech mod for Minecraft.
 
 ## About This Branch

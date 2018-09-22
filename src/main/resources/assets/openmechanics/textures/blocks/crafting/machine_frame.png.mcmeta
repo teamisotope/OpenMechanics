@@ -1,0 +1,10 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "layer":"CUTOUT",
+        "textures":[
+            "openmechanics:blocks/crafting/machine_frame_ctm"
+        ]
+    }
+}

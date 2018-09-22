@@ -9,7 +9,7 @@
   "updateUrl": "",
   "authorList": ["The Puzzlemaker", "dadarkgragon (former author)"],
   "credits": "Many, many, many people.",
-  "logoFile": "",
+  "logoFile": "assets/openmechanics/textures/gui/om-logo.png",
   "screenshots": [],
   "dependencies": []
 }

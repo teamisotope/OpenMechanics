@@ -1,0 +1,6 @@
+< Tabs >
+itemGroup.openmechanics.materials=§4OM » Materials
+itemGroup.openmechanics.machines=§4OM » Machines
+itemGroup.openmechanics.miscellaneous=§4OM » Miscellaneous
+
+tile.openmechanics.machine_frame.name=Machine Frame
