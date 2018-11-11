@@ -1,7 +1,10 @@
 package com.teamisotope.openmechanics.proxy;
 
 import com.teamisotope.openmechanics.OMStatic;
+import com.teamisotope.openmechanics.api.task.Task;
 import com.teamisotope.openmechanics.common.block.OMBlocks;
+import com.teamisotope.openmechanics.common.item.OMItems;
+import com.teamisotope.openmechanics.common.util.TaskLists;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
@@ -33,7 +36,7 @@ public class ClientProxy extends CommonProxy {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent e) {
-
+        TaskLists.TASK_LIST_RENDER.run(new Task.TaskEnvironment(e));
     }
 
 }
