@@ -7,8 +7,14 @@ public class RenderParams {
     private ModelResourceLocation mrl;
     private int meta;
 
+    public RenderParams(int meta, ModelResourceLocation mrl) {
+        this.mrl = mrl;
+        this.meta = meta;
+    }
+
     public RenderParams(ModelResourceLocation mrl) {
         this.mrl = mrl;
+        this.meta = 0;
     }
 
     public void setMRL(ModelResourceLocation mrl) {
