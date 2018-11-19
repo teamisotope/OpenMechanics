@@ -5,6 +5,7 @@ import com.teamisotope.openmechanics.api.task.TaskMalformedInputException;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
+import net.minecraftforge.client.model.ModelLoader;
 
 public class TaskRender extends Task {
 
@@ -15,7 +16,7 @@ public class TaskRender extends Task {
             ModelRegistryEvent e = (ModelRegistryEvent) env.evtInstance;
             Item item = (Item) inputs[0];
             RenderParams params = (RenderParams) inputs[1];
-            System.out.println(item.getRegistryName() + ": " + params.getMRL().toString());
+            ModelLoader.setCustomModelResourceLocation(item, params.getMeta(), params.getMRL());
         } else {
             throw new TaskMalformedInputException();
         }
@@ -28,7 +29,7 @@ public class TaskRender extends Task {
 
     /**
      * @param inputs
-     * The inputs should be in this format, otherwise it will throw a TaskInputException:
+     * The inputs should be in this format, otherwise it will throw a TaskMalformedInputException:
      * {
      *     [0]: Item item,
      *     [1]: RenderParams parameters,
