@@ -1,4 +1,7 @@
 # OpenMechanics
+
+# OpenMechanics' development has been suspended until further notice. This is due to me not having a team, which would be required to maintain a mod planned to be this large. If you would like to join my team to help, please DM me on Discord (Paradoxical#2936).
+
 Adds new ores and things. This branch currently contains the development for version 2.0.
 
 # Credits
