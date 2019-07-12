@@ -1,5 +1,7 @@
 # OpenMechanics ![CI status](https://api.travis-ci.org/teamisotope/OpenMechanics.svg?branch=1.12.2-dev "CI status")
 
+# OpenMechanics' development has been suspended until further notice. This is due to me not having a team, which would be required to maintain a mod planned to be this large. If you would like to join my team to help, please DM me on Discord (Paradoxical#2936).
+
 ![logo](src/main/resources/assets/openmechanics/textures/gui/om-logo.png)
 
 OpenMechanics is an open-source, long-progression, realistic tech mod for Minecraft.
